@@ -1,0 +1,2211 @@
+{
+    "metadata": {
+        "categoryId": "kunst",
+        "displayName": "Kunst & Kultur",
+        "description": "Fragen zu Kunst, Musik, Literatur und kulturellen Themen",
+        "icon": "🎨",
+        "order": 7
+    },
+    "questions": [
+        {
+            "id": 61,
+            "question": "Wer malte die Mona Lisa?",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Picasso",
+                "Van Gogh"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 62,
+            "question": "In welcher Stadt steht das Museum Louvre?",
+            "answers": [
+                "London",
+                "Rom",
+                "Paris",
+                "Madrid"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 63,
+            "question": "Welcher Künstler schnitt sich das Ohr ab?",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 64,
+            "question": "Aus welchem Material ist die Freiheitsstatue?",
+            "answers": [
+                "Bronze",
+                "Kupfer",
+                "Eisen",
+                "Marmor"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 65,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'?",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Vivaldi",
+                "Beethoven"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 66,
+            "question": "Welcher Künstler malte 'Die Sternennacht'?",
+            "answers": [
+                "Van Gogh",
+                "Picasso",
+                "Monet",
+                "Dalí"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 67,
+            "question": "In welcher Stadt befindet sich die Sixtinische Kapelle?",
+            "answers": [
+                "Florenz",
+                "Rom",
+                "Venedig",
+                "Mailand"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 68,
+            "question": "Wer schrieb 'Romeo und Julia'?",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Mark Twain",
+                "Oscar Wilde"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 69,
+            "question": "Welches Musikinstrument spielt Yo-Yo Ma berühmt?",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Cello",
+                "Flöte"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 70,
+            "question": "Wer malte 'Guernica'?",
+            "answers": [
+                "Salvador Dalí",
+                "Pablo Picasso",
+                "Joan Miró",
+                "Francisco Goya"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 71,
+            "question": "Welche Oper schrieb Mozart NICHT?",
+            "answers": [
+                "Die Zauberflöte",
+                "Don Giovanni",
+                "Carmen",
+                "Così fan tutte"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 72,
+            "question": "In welchem Museum hängt die Mona Lisa?",
+            "answers": [
+                "British Museum",
+                "Louvre",
+                "Uffizien",
+                "Metropolitan Museum"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 73,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'?",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 74,
+            "question": "Welcher Künstler malte 'Das Abendmahl'?",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 75,
+            "question": "In welcher Stadt steht das Kolosseum?",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Florenz",
+                "Venedig"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 76,
+            "question": "Wer schrieb 'Hamlet'?",
+            "answers": [
+                "Christopher Marlowe",
+                "William Shakespeare",
+                "Ben Jonson",
+                "John Webster"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 77,
+            "question": "Welche Farbe dominiert in Picassos 'Blauer Periode'?",
+            "answers": [
+                "Rot",
+                "Grün",
+                "Blau",
+                "Gelb"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 78,
+            "question": "Wer komponierte 'Die Zauberflöte'?",
+            "answers": [
+                "Mozart",
+                "Bach",
+                "Beethoven",
+                "Wagner"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 79,
+            "question": "In welchem Land wurde der Tango erfunden?",
+            "answers": [
+                "Spanien",
+                "Brasilien",
+                "Argentinien",
+                "Mexiko"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 80,
+            "question": "Wer malte 'Die Nachtwache'?",
+            "answers": [
+                "Rembrandt",
+                "Vermeer",
+                "Van Gogh",
+                "Rubens"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 81,
+            "question": "Welches Instrument spielte Chopin hauptsächlich?",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Gitarre"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 82,
+            "question": "In welcher Stadt befindet sich das Guggenheim Museum?",
+            "answers": [
+                "Paris",
+                "London",
+                "New York",
+                "Berlin"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 83,
+            "question": "Wer schrieb 'Der Ring des Nibelungen'?",
+            "answers": [
+                "Mozart",
+                "Verdi",
+                "Wagner",
+                "Puccini"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 84,
+            "question": "Welcher Künstler schnitt sich das Ohr ab?",
+            "answers": [
+                "Van Gogh",
+                "Gauguin",
+                "Cézanne",
+                "Monet"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 85,
+            "question": "In welchem Jahrhundert lebte Shakespeare?",
+            "answers": [
+                "15. Jahrhundert",
+                "16. Jahrhundert",
+                "17. Jahrhundert",
+                "18. Jahrhundert"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 86,
+            "question": "Wer komponierte 'Schwanensee'?",
+            "answers": [
+                "Strawinsky",
+                "Tschaikowsky",
+                "Rachmaninow",
+                "Mussorgsky"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 87,
+            "question": "Welche Kunstrichtung begründete Picasso mit?",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 88,
+            "question": "Wer malte 'Die Erschaffung Adams'?",
+            "answers": [
+                "Leonardo da Vinci",
+                "Michelangelo",
+                "Raffael",
+                "Botticelli"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 89,
+            "question": "In welcher Oper kommt 'Nessun Dorma' vor?",
+            "answers": [
+                "La Traviata",
+                "Tosca",
+                "Turandot",
+                "Rigoletto"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 90,
+            "question": "Wer schrieb 'Der Faust'?",
+            "answers": [
+                "Schiller",
+                "Goethe",
+                "Heine",
+                "Lessing"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 91,
+            "question": "Welches Museum beherbergt die Venus de Milo?",
+            "answers": [
+                "Louvre",
+                "British Museum",
+                "Uffizien",
+                "Prado"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 92,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'?",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Händel",
+                "Telemann"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 93,
+            "question": "In welcher Stadt wurde Mozart geboren?",
+            "answers": [
+                "Wien",
+                "Salzburg",
+                "Prague",
+                "Budapest"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 94,
+            "question": "Wer malte 'Der Schrei'?",
+            "answers": [
+                "Van Gogh",
+                "Munch",
+                "Picasso",
+                "Dalí"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 95,
+            "question": "Welcher Tanz stammt aus Österreich?",
+            "answers": [
+                "Tango",
+                "Flamenco",
+                "Walzer",
+                "Samba"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 96,
+            "question": "Wer schrieb 'Don Quijote'?",
+            "answers": [
+                "Lope de Vega",
+                "Cervantes",
+                "Calderón",
+                "Góngora"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 97,
+            "question": "In welchem Land entstand der Jazz?",
+            "answers": [
+                "England",
+                "Frankreich",
+                "USA",
+                "Deutschland"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 98,
+            "question": "Wer malte 'Mädchen mit dem Perlenohrring'?",
+            "answers": [
+                "Rembrandt",
+                "Vermeer",
+                "Van Dyck",
+                "Hals"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 99,
+            "question": "Welche Opernhäuser stehen in Mailand?",
+            "answers": [
+                "Metropolitan Opera",
+                "La Scala",
+                "Covent Garden",
+                "Staatsoper"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 100,
+            "question": "Wer komponierte 'Für Elise'?",
+            "answers": [
+                "Mozart",
+                "Bach",
+                "Beethoven",
+                "Chopin"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 101,
+            "question": "Welcher Künstler malte hauptsächlich Seerosen?",
+            "answers": [
+                "Renoir",
+                "Monet",
+                "Degas",
+                "Manet"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 102,
+            "question": "In welcher Sprache schrieb Dante die 'Göttliche Komödie'?",
+            "answers": [
+                "Latein",
+                "Italienisch",
+                "Französisch",
+                "Spanisch"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 103,
+            "question": "Wer schuf die Statue 'Der Denker'?",
+            "answers": [
+                "Michelangelo",
+                "Rodin",
+                "Moore",
+                "Brâncuși"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 104,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'?",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 105,
+            "question": "In welchem Museum hängt die Mona Lisa?",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 106,
+            "question": "Welcher Künstler malte 'Die Sternennacht'?",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 107,
+            "question": "Aus welchem Land stammt der Tango?",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 108,
+            "question": "Wer schrieb 'Romeo und Julia'?",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 109,
+            "question": "Welches Instrument spielte Mozart hauptsächlich?",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 110,
+            "question": "In welcher Stadt steht das Kolosseum?",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 111,
+            "question": "Wer malte 'Das letzte Abendmahl'?",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 112,
+            "question": "Welche Kunstrichtung begründete Picasso?",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 113,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'?",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 114,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 2)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 115,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 2)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 116,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 2)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 117,
+            "question": "Aus welchem Land stammt der Tango? (Variante 2)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 118,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 2)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 119,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 2)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 120,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 2)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 121,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 2)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 122,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 2)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 123,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 2)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 124,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 3)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 125,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 3)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 126,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 3)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 127,
+            "question": "Aus welchem Land stammt der Tango? (Variante 3)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 128,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 3)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 129,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 3)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 130,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 3)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 131,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 3)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 132,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 3)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 133,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 3)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 134,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 4)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 135,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 4)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 136,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 4)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 137,
+            "question": "Aus welchem Land stammt der Tango? (Variante 4)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 138,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 4)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 139,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 4)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 140,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 4)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 141,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 4)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 142,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 4)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 143,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 4)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 144,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 5)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 145,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 5)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 146,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 5)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 147,
+            "question": "Aus welchem Land stammt der Tango? (Variante 5)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 148,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 5)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 149,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 5)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 150,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 5)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 151,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 5)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 152,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 5)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 153,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 5)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 154,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 6)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 155,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 6)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 156,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 6)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 157,
+            "question": "Aus welchem Land stammt der Tango? (Variante 6)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 158,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 6)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 159,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 6)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 160,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 6)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 161,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 6)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 162,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 6)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 163,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 6)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 164,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 7)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 165,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 7)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 166,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 7)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 167,
+            "question": "Aus welchem Land stammt der Tango? (Variante 7)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 168,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 7)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 169,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 7)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 170,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 7)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 171,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 7)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 172,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 7)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 173,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 7)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 174,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 8)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 175,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 8)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 176,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 8)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 177,
+            "question": "Aus welchem Land stammt der Tango? (Variante 8)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 178,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 8)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 179,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 8)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 180,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 8)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 181,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 8)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 182,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 8)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 183,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 8)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 184,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 9)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 185,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 9)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 186,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 9)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 187,
+            "question": "Aus welchem Land stammt der Tango? (Variante 9)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 188,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 9)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 189,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 9)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 190,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 9)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 191,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 9)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 192,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 9)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 193,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 9)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 194,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 10)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 195,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 10)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 196,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 10)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 197,
+            "question": "Aus welchem Land stammt der Tango? (Variante 10)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 198,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 10)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 199,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 10)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 200,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 10)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 201,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 10)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 202,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 10)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 203,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 10)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 204,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 11)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 205,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 11)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 206,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 11)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 207,
+            "question": "Aus welchem Land stammt der Tango? (Variante 11)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 208,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 11)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 209,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 11)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 210,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 11)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 211,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 11)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 212,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 11)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 213,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 11)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 214,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 12)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 215,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 12)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 216,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 12)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 217,
+            "question": "Aus welchem Land stammt der Tango? (Variante 12)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 218,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 12)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 219,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 12)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 220,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 12)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 221,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 12)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 222,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 12)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 223,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 12)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 224,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 13)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 225,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 13)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 226,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 13)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 227,
+            "question": "Aus welchem Land stammt der Tango? (Variante 13)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 228,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 13)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 229,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 13)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 230,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 13)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 231,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 13)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 232,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 13)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 233,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 13)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 234,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 14)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 235,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 14)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 236,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 14)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 237,
+            "question": "Aus welchem Land stammt der Tango? (Variante 14)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 238,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 14)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 239,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 14)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 240,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 14)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 241,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 14)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 242,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 14)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 243,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 14)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 244,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 15)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 245,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 15)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 246,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 15)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 247,
+            "question": "Aus welchem Land stammt der Tango? (Variante 15)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 248,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 15)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 249,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 15)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 250,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 15)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 251,
+            "question": "Wer malte 'Das letzte Abendmahl'? (Variante 15)",
+            "answers": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffael",
+                "Donatello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 252,
+            "question": "Welche Kunstrichtung begründete Picasso? (Variante 15)",
+            "answers": [
+                "Impressionismus",
+                "Kubismus",
+                "Surrealismus",
+                "Expressionismus"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 253,
+            "question": "Wer komponierte 'Eine kleine Nachtmusik'? (Variante 15)",
+            "answers": [
+                "Bach",
+                "Mozart",
+                "Beethoven",
+                "Haydn"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 254,
+            "question": "Wer komponierte 'Die vier Jahreszeiten'? (Variante 16)",
+            "answers": [
+                "Bach",
+                "Vivaldi",
+                "Mozart",
+                "Beethoven"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 255,
+            "question": "In welchem Museum hängt die Mona Lisa? (Variante 16)",
+            "answers": [
+                "Uffizien",
+                "Louvre",
+                "Prado",
+                "National Gallery"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 256,
+            "question": "Welcher Künstler malte 'Die Sternennacht'? (Variante 16)",
+            "answers": [
+                "Picasso",
+                "Van Gogh",
+                "Monet",
+                "Renoir"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 257,
+            "question": "Aus welchem Land stammt der Tango? (Variante 16)",
+            "answers": [
+                "Spanien",
+                "Mexiko",
+                "Argentinien",
+                "Brasilien"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 258,
+            "question": "Wer schrieb 'Romeo und Julia'? (Variante 16)",
+            "answers": [
+                "Charles Dickens",
+                "William Shakespeare",
+                "Oscar Wilde",
+                "Mark Twain"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 259,
+            "question": "Welches Instrument spielte Mozart hauptsächlich? (Variante 16)",
+            "answers": [
+                "Violine",
+                "Klavier",
+                "Flöte",
+                "Cello"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 260,
+            "question": "In welcher Stadt steht das Kolosseum? (Variante 16)",
+            "answers": [
+                "Athen",
+                "Rom",
+                "Istanbul",
+                "Kairo"
+            ],
+            "correct": 1
+        }
+    ]
+}

@@ -1,0 +1,2211 @@
+{
+    "metadata": {
+        "categoryId": "sport",
+        "displayName": "Sport",
+        "description": "Fragen rund um Sport, Olympische Spiele und bekannte Sportler",
+        "icon": "⚽",
+        "order": 5
+    },
+    "questions": [
+        {
+            "id": 37,
+            "question": "Wie oft finden die Olympischen Sommerspiele statt?",
+            "answers": [
+                "Alle 2 Jahre",
+                "Alle 3 Jahre",
+                "Alle 4 Jahre",
+                "Alle 5 Jahre"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 38,
+            "question": "In welchem Sport wird der Ball mit dem Fuß gespielt?",
+            "answers": [
+                "Basketball",
+                "Volleyball",
+                "Fußball",
+                "Tennis"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 39,
+            "question": "Wie viele Spieler sind in einer Fußballmannschaft auf dem Feld?",
+            "answers": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 40,
+            "question": "Welcher Sport wird auf einem Court gespielt?",
+            "answers": [
+                "Schwimmen",
+                "Tennis",
+                "Radfahren",
+                "Laufen"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 41,
+            "question": "Wie lange dauert ein Boxkampf maximal (Profi)?",
+            "answers": [
+                "10 Runden",
+                "12 Runden",
+                "15 Runden",
+                "20 Runden"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 42,
+            "question": "Welche Sportart wird beim Wimbledon-Turnier gespielt?",
+            "answers": [
+                "Golf",
+                "Tennis",
+                "Cricket",
+                "Rugby"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 43,
+            "question": "Wie viele Punkte gibt es für einen Touchdown im American Football?",
+            "answers": [
+                "3",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 44,
+            "question": "In welchem Land wurden die ersten modernen Olympischen Spiele abgehalten?",
+            "answers": [
+                "England",
+                "Frankreich",
+                "Griechenland",
+                "Deutschland"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 45,
+            "question": "Wie heißt der höchste Berg, den man beim Skifahren befahren kann?",
+            "answers": [
+                "Mount Everest",
+                "K2",
+                "Mont Blanc",
+                "Matterhorn"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 46,
+            "question": "Welcher Fußballverein hat die meisten Champions League Titel gewonnen?",
+            "answers": [
+                "FC Barcelona",
+                "Real Madrid",
+                "AC Milan",
+                "Bayern München"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 47,
+            "question": "Wie lang ist eine Marathonstrecke?",
+            "answers": [
+                "40,195 km",
+                "41,195 km",
+                "42,195 km",
+                "43,195 km"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 48,
+            "question": "In welchem Sport gibt es einen 'Hole-in-One'?",
+            "answers": [
+                "Tennis",
+                "Golf",
+                "Basketball",
+                "Bowling"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 49,
+            "question": "Wie viele Spieler hat eine Basketballmannschaft auf dem Feld?",
+            "answers": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 50,
+            "question": "In welchem Sport gibt es einen Schiedsrichter namens 'Umpire'?",
+            "answers": [
+                "Fußball",
+                "Basketball",
+                "Baseball",
+                "Hockey"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 51,
+            "question": "Wie oft finden die Fußball-Weltmeisterschaften statt?",
+            "answers": [
+                "Alle 2 Jahre",
+                "Alle 3 Jahre",
+                "Alle 4 Jahre",
+                "Alle 5 Jahre"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 52,
+            "question": "Welcher Schwimmstil ist der schnellste?",
+            "answers": [
+                "Brustschwimmen",
+                "Rückenschwimmen",
+                "Schmetterling",
+                "Freistil"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 53,
+            "question": "Wie viele Löcher hat ein Standard-Golfplatz?",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "22"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 54,
+            "question": "In welchem Sport verwendet man einen Puck?",
+            "answers": [
+                "Basketball",
+                "Handball",
+                "Eishockey",
+                "Volleyball"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 55,
+            "question": "Wie heißt der Tennisplatz in London?",
+            "answers": [
+                "Wembley",
+                "Wimbledon",
+                "Westminster",
+                "Windsor"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 56,
+            "question": "Welcher Sport wird in einem Ring ausgetragen?",
+            "answers": [
+                "Wrestling",
+                "Boxen",
+                "Judo",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 57,
+            "question": "Wie viele Pfeile wirft man beim Darts pro Runde?",
+            "answers": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 58,
+            "question": "In welchem Sport gibt es einen 'Slam Dunk'?",
+            "answers": [
+                "Volleyball",
+                "Basketball",
+                "Handball",
+                "Tennis"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 59,
+            "question": "Wie lange dauert eine Halbzeit im Fußball?",
+            "answers": [
+                "40 Minuten",
+                "45 Minuten",
+                "50 Minuten",
+                "60 Minuten"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 60,
+            "question": "Welcher Sport wird auf einem 'Court' gespielt?",
+            "answers": [
+                "Fußball",
+                "Golf",
+                "Tennis",
+                "Schwimmen"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 61,
+            "question": "Wie viele Bahnen hat eine Standard-Laufbahn?",
+            "answers": [
+                "6",
+                "8",
+                "10",
+                "12"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 62,
+            "question": "In welchem Jahr wurden die ersten modernen Olympischen Spiele abgehalten?",
+            "answers": [
+                "1894",
+                "1896",
+                "1898",
+                "1900"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 63,
+            "question": "Welcher Fußballspieler hat die meisten Weltmeisterschaften gewonnen?",
+            "answers": [
+                "Ronaldo",
+                "Messi",
+                "Pelé",
+                "Maradona"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 64,
+            "question": "Wie heißt der Tennisschlag über den Kopf?",
+            "answers": [
+                "Vorhand",
+                "Rückhand",
+                "Aufschlag",
+                "Schmetterball"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 65,
+            "question": "Welcher Sport wird mit einem Shuttlecock gespielt?",
+            "answers": [
+                "Tennis",
+                "Squash",
+                "Badminton",
+                "Tischtennis"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 66,
+            "question": "Wie viele Punkte braucht man zum Sieg beim Tischtennis?",
+            "answers": [
+                "15",
+                "21",
+                "11",
+                "25"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 67,
+            "question": "In welchem Sport gibt es 'Strikes' und 'Spares'?",
+            "answers": [
+                "Baseball",
+                "Bowling",
+                "Golf",
+                "Darts"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 68,
+            "question": "Wie heißt das Ziel beim Basketball?",
+            "answers": [
+                "Tor",
+                "Korb",
+                "Ring",
+                "Netz"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 69,
+            "question": "Welcher Kampfsport kommt aus Japan?",
+            "answers": [
+                "Karate",
+                "Taekwondo",
+                "Kung Fu",
+                "Kickboxen"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 70,
+            "question": "Wie viele Minuten Verlängerung gibt es im Fußball?",
+            "answers": [
+                "2x10",
+                "2x15",
+                "2x20",
+                "2x30"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 71,
+            "question": "In welchem Sport verwendet man einen Sattel?",
+            "answers": [
+                "Radfahren",
+                "Reiten",
+                "Motorradfahren",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 72,
+            "question": "Wie nennt man den Bereich hinter dem Tor im Eishockey?",
+            "answers": [
+                "Zone",
+                "Feld",
+                "Kreis",
+                "Ecke"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 73,
+            "question": "Welcher Sport wird auf Sand gespielt?",
+            "answers": [
+                "Volleyball",
+                "Fußball",
+                "Tennis",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 74,
+            "question": "Wie viele Runden hat ein Formel-1-Rennen mindestens?",
+            "answers": [
+                "Es variiert",
+                "50",
+                "60",
+                "70"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 75,
+            "question": "In welchem Sport gibt es 'Pins'?",
+            "answers": [
+                "Bowling",
+                "Wrestling",
+                "Boxen",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 76,
+            "question": "Wie nennt man den Tennisschlag am Netz?",
+            "answers": [
+                "Volley",
+                "Lob",
+                "Drop-Shot",
+                "Smash"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 77,
+            "question": "Welcher Sport hat die meisten aktiven Teilnehmer weltweit?",
+            "answers": [
+                "Basketball",
+                "Fußball",
+                "Tennis",
+                "Schwimmen"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 78,
+            "question": "Wie heißt der Startbereich beim Schwimmen?",
+            "answers": [
+                "Block",
+                "Platform",
+                "Stand",
+                "Base"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 79,
+            "question": "In welchem Sport gibt es 'Fairways'?",
+            "answers": [
+                "Tennis",
+                "Golf",
+                "Hockey",
+                "Cricket"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 80,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft?",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 81,
+            "question": "Welcher Sport wird im Velodrom ausgetragen?",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 82,
+            "question": "Wie lang ist ein olympisches Schwimmbecken?",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 83,
+            "question": "Welcher Kampfsport kommt aus Brasilien?",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 84,
+            "question": "Wie heißt der Puck beim Eishockey?",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 85,
+            "question": "Welche Distanz läuft man beim Marathon?",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 86,
+            "question": "Wie viele Löcher hat ein Golfplatz?",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 87,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt?",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 88,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis?",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 89,
+            "question": "Welches Team gewann die erste Fußball-WM?",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 90,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 2)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 91,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 2)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 92,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 2)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 93,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 2)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 94,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 2)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 95,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 2)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 96,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 2)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 97,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 2)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 98,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 2)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 99,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 2)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 100,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 3)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 101,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 3)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 102,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 3)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 103,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 3)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 104,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 3)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 105,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 3)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 106,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 3)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 107,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 3)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 108,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 3)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 109,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 3)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 110,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 4)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 111,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 4)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 112,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 4)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 113,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 4)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 114,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 4)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 115,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 4)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 116,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 4)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 117,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 4)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 118,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 4)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 119,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 4)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 120,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 5)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 121,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 5)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 122,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 5)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 123,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 5)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 124,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 5)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 125,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 5)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 126,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 5)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 127,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 5)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 128,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 5)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 129,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 5)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 130,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 6)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 131,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 6)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 132,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 6)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 133,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 6)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 134,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 6)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 135,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 6)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 136,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 6)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 137,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 6)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 138,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 6)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 139,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 6)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 140,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 7)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 141,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 7)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 142,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 7)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 143,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 7)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 144,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 7)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 145,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 7)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 146,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 7)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 147,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 7)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 148,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 7)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 149,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 7)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 150,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 8)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 151,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 8)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 152,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 8)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 153,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 8)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 154,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 8)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 155,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 8)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 156,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 8)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 157,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 8)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 158,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 8)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 159,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 8)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 160,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 9)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 161,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 9)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 162,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 9)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 163,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 9)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 164,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 9)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 165,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 9)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 166,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 9)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 167,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 9)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 168,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 9)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 169,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 9)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 170,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 10)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 171,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 10)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 172,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 10)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 173,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 10)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 174,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 10)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 175,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 10)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 176,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 10)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 177,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 10)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 178,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 10)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 179,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 10)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 180,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 11)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 181,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 11)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 182,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 11)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 183,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 11)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 184,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 11)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 185,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 11)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 186,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 11)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 187,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 11)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 188,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 11)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 189,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 11)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 190,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 12)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 191,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 12)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 192,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 12)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 193,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 12)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 194,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 12)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 195,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 12)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 196,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 12)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 197,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 12)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 198,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 12)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 199,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 12)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 200,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 13)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 201,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 13)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 202,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 13)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 203,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 13)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 204,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 13)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 205,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 13)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 206,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 13)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 207,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 13)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 208,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 13)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 209,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 13)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 210,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 14)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 211,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 14)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 212,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 14)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 213,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 14)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 214,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 14)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 215,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 14)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 216,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 14)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 217,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 14)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 218,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 14)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 219,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 14)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 220,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 15)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 221,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 15)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 222,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 15)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 223,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 15)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 224,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 15)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 225,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 15)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 226,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 15)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 227,
+            "question": "Welcher Sport wird auf einem Tatami ausgeübt? (Variante 15)",
+            "answers": [
+                "Karate",
+                "Judo",
+                "Aikido",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 228,
+            "question": "Wie nennt man den Schiedsrichter beim Tennis? (Variante 15)",
+            "answers": [
+                "Referee",
+                "Umpire",
+                "Judge",
+                "Linesman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 229,
+            "question": "Welches Team gewann die erste Fußball-WM? (Variante 15)",
+            "answers": [
+                "Brasilien",
+                "Uruguay",
+                "Argentinien",
+                "Deutschland"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 230,
+            "question": "Wie viele Spieler hat eine Wasserball-Mannschaft? (Variante 16)",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 231,
+            "question": "Welcher Sport wird im Velodrom ausgetragen? (Variante 16)",
+            "answers": [
+                "Leichtathletik",
+                "Radrennen",
+                "Rollschuhlaufen",
+                "Skateboarding"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 232,
+            "question": "Wie lang ist ein olympisches Schwimmbecken? (Variante 16)",
+            "answers": [
+                "25m",
+                "50m",
+                "75m",
+                "100m"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 233,
+            "question": "Welcher Kampfsport kommt aus Brasilien? (Variante 16)",
+            "answers": [
+                "Jiu-Jitsu",
+                "Capoeira",
+                "Muay Thai",
+                "Krav Maga"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 234,
+            "question": "Wie heißt der Puck beim Eishockey? (Variante 16)",
+            "answers": [
+                "Puck",
+                "Disc",
+                "Scheibe",
+                "Ring"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 235,
+            "question": "Welche Distanz läuft man beim Marathon? (Variante 16)",
+            "answers": [
+                "42,195 km",
+                "42,5 km",
+                "43 km",
+                "40 km"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 236,
+            "question": "Wie viele Löcher hat ein Golfplatz? (Variante 16)",
+            "answers": [
+                "16",
+                "18",
+                "20",
+                "24"
+            ],
+            "correct": 1
+        }
+    ]
+}

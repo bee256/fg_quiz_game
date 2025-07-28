@@ -1,0 +1,2211 @@
+{
+    "metadata": {
+        "categoryId": "geschichte",
+        "displayName": "Geschichte",
+        "description": "Fragen zur Weltgeschichte und historischen Ereignissen",
+        "icon": "🏛️",
+        "order": 3
+    },
+    "questions": [
+        {
+            "id": 13,
+            "question": "In welchem Jahr fiel die Berliner Mauer?",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 14,
+            "question": "Wer war der erste Kaiser des Römischen Reiches?",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Trajan"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 15,
+            "question": "In welchem Jahr begann der Erste Weltkrieg?",
+            "answers": [
+                "1912",
+                "1913",
+                "1914",
+                "1915"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 16,
+            "question": "Welche Pyramide ist die größte in Ägypten?",
+            "answers": [
+                "Pyramide von Gizeh",
+                "Cheops-Pyramide",
+                "Sphinx-Pyramide",
+                "Mykerinos-Pyramide"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 17,
+            "question": "Wer entdeckte Amerika im Jahr 1492?",
+            "answers": [
+                "Vasco da Gama",
+                "Marco Polo",
+                "Christoph Kolumbus",
+                "Ferdinand Magellan"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 18,
+            "question": "In welchem Jahr endete der Zweite Weltkrieg?",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 19,
+            "question": "Welches Ereignis führte zum Beginn der Französischen Revolution?",
+            "answers": [
+                "Sturm auf die Bastille",
+                "Tod von Ludwig XVI.",
+                "Hungersnot",
+                "Steuererhöhung"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 20,
+            "question": "Wer war der letzte Kaiser von Deutschland?",
+            "answers": [
+                "Wilhelm I.",
+                "Wilhelm II.",
+                "Friedrich III.",
+                "Otto von Bismarck"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 21,
+            "question": "In welchem Jahr wurde die DDR gegründet?",
+            "answers": [
+                "1948",
+                "1949",
+                "1950",
+                "1951"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 22,
+            "question": "Welcher ägyptische Herrscher ließ die Cheops-Pyramide errichten?",
+            "answers": [
+                "Tutanchamun",
+                "Ramses II.",
+                "Cheops",
+                "Cleopatra"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 23,
+            "question": "In welchem Jahr landete Neil Armstrong auf dem Mond?",
+            "answers": [
+                "1967",
+                "1968",
+                "1969",
+                "1970"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 24,
+            "question": "Welches Reich eroberte Konstantinopel im Jahr 1453?",
+            "answers": [
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Heiliges Römisches Reich",
+                "Russisches Reich"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 25,
+            "question": "Wann wurde die Chinesische Mauer gebaut?",
+            "answers": [
+                "3. Jahrhundert v. Chr.",
+                "7. Jahrhundert",
+                "12. Jahrhundert",
+                "15. Jahrhundert"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 26,
+            "question": "Wer war der erste Mensch im Weltraum?",
+            "answers": [
+                "Neil Armstrong",
+                "Buzz Aldrin",
+                "Juri Gagarin",
+                "John Glenn"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 27,
+            "question": "In welchem Jahr endete der Kalte Krieg?",
+            "answers": [
+                "1987",
+                "1989",
+                "1991",
+                "1993"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 28,
+            "question": "Welche Zivilisation baute Machu Picchu?",
+            "answers": [
+                "Maya",
+                "Azteken",
+                "Inka",
+                "Olmeken"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 29,
+            "question": "Wann begann die Industrielle Revolution?",
+            "answers": [
+                "17. Jahrhundert",
+                "18. Jahrhundert",
+                "19. Jahrhundert",
+                "20. Jahrhundert"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 30,
+            "question": "Wer war der letzte Zar von Russland?",
+            "answers": [
+                "Alexander III.",
+                "Nikolaus II.",
+                "Alexander II.",
+                "Peter der Große"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 31,
+            "question": "In welchem Jahr wurde die UNO gegründet?",
+            "answers": [
+                "1943",
+                "1945",
+                "1947",
+                "1949"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 32,
+            "question": "Welcher Pharao ließ die Sphinx bauen?",
+            "answers": [
+                "Ramses II.",
+                "Tutanchamun",
+                "Cheops",
+                "Chephren"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 33,
+            "question": "Wann fand die Schlacht von Waterloo statt?",
+            "answers": [
+                "1813",
+                "1814",
+                "1815",
+                "1816"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 34,
+            "question": "Wer entdeckte das Penicillin?",
+            "answers": [
+                "Louis Pasteur",
+                "Alexander Fleming",
+                "Marie Curie",
+                "Robert Koch"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 35,
+            "question": "In welchem Jahr wurde das Internet erfunden?",
+            "answers": [
+                "1969",
+                "1975",
+                "1981",
+                "1989"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 36,
+            "question": "Welches Imperium regierte Julius Caesar?",
+            "answers": [
+                "Griechisches Reich",
+                "Römisches Reich",
+                "Persisches Reich",
+                "Babylonisches Reich"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 37,
+            "question": "Wann endete die Apartheid in Südafrika?",
+            "answers": [
+                "1990",
+                "1992",
+                "1994",
+                "1996"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 38,
+            "question": "Wer führte die Oktoberrevolution in Russland an?",
+            "answers": [
+                "Stalin",
+                "Trotzki",
+                "Lenin",
+                "Kerenski"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 39,
+            "question": "In welchem Jahr wurde die Titanic gebaut?",
+            "answers": [
+                "1909",
+                "1911",
+                "1912",
+                "1914"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 40,
+            "question": "Welcher Krieg dauerte 100 Jahre?",
+            "answers": [
+                "Hundertjähriger Krieg",
+                "Dreißigjähriger Krieg",
+                "Siebenjähriger Krieg",
+                "Punische Kriege"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 41,
+            "question": "Wer war der erste Präsident der USA?",
+            "answers": [
+                "Thomas Jefferson",
+                "George Washington",
+                "John Adams",
+                "Benjamin Franklin"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 42,
+            "question": "In welchem Jahr fiel das Römische Reich?",
+            "answers": [
+                "410",
+                "455",
+                "476",
+                "493"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 43,
+            "question": "Welche Revolution begann 1789?",
+            "answers": [
+                "Amerikanische Revolution",
+                "Französische Revolution",
+                "Russische Revolution",
+                "Industrielle Revolution"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 44,
+            "question": "Wer war Hannibal?",
+            "answers": [
+                "Römischer General",
+                "Karthagischer General",
+                "Griechischer Philosoph",
+                "Ägyptischer Pharao"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 45,
+            "question": "Wann wurde die Mauer um Berlin gebaut?",
+            "answers": [
+                "1959",
+                "1961",
+                "1963",
+                "1965"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 46,
+            "question": "Welches Land war nie Teil des Römischen Reiches?",
+            "answers": [
+                "Spanien",
+                "England",
+                "Deutschland",
+                "Irland"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 47,
+            "question": "Wer schrieb 'Das Kapital'?",
+            "answers": [
+                "Karl Marx",
+                "Friedrich Engels",
+                "Adam Smith",
+                "Max Weber"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 48,
+            "question": "In welchem Jahr endete der Vietnamkrieg?",
+            "answers": [
+                "1973",
+                "1975",
+                "1977",
+                "1979"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 49,
+            "question": "Welcher Kaiser teilte das Römische Reich?",
+            "answers": [
+                "Augustus",
+                "Trajan",
+                "Diocletian",
+                "Konstantin"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 50,
+            "question": "Wann wurde Indien unabhängig?",
+            "answers": [
+                "1945",
+                "1947",
+                "1949",
+                "1951"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 51,
+            "question": "Wer war der letzte Kaiser von China?",
+            "answers": [
+                "Puyi",
+                "Kangxi",
+                "Qianlong",
+                "Guangxu"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 52,
+            "question": "In welchem Jahr wurde Israel gegründet?",
+            "answers": [
+                "1946",
+                "1948",
+                "1950",
+                "1952"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 53,
+            "question": "Welcher Vertrag beendete den Ersten Weltkrieg?",
+            "answers": [
+                "Vertrag von Versailles",
+                "Vertrag von Trianon",
+                "Vertrag von Saint-Germain",
+                "Vertrag von Sèvres"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 54,
+            "question": "Wer war Kleopatra?",
+            "answers": [
+                "Griechische Königin",
+                "Römische Kaiserin",
+                "Ägyptische Königin",
+                "Persische Prinzessin"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 55,
+            "question": "Wann begann die Renaissance?",
+            "answers": [
+                "13. Jahrhundert",
+                "14. Jahrhundert",
+                "15. Jahrhundert",
+                "16. Jahrhundert"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 56,
+            "question": "Wann wurde die erste Mondlandung übertragen?",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 57,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab?",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 58,
+            "question": "In welchem Jahr wurde die UNO gegründet?",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 59,
+            "question": "Wer war der erste römische Kaiser?",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 60,
+            "question": "Welche Revolution begann 1917 in Russland?",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 61,
+            "question": "Wann endete der Vietnamkrieg?",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 62,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus?",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 63,
+            "question": "Wer baute die erste Dampfmaschine?",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 64,
+            "question": "In welchem Jahr fiel die Berliner Mauer?",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 65,
+            "question": "Welches Imperium kontrollierte das antike Ägypten?",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 66,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 2)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 67,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 2)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 68,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 2)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 69,
+            "question": "Wer war der erste römische Kaiser? (Variante 2)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 70,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 2)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 71,
+            "question": "Wann endete der Vietnamkrieg? (Variante 2)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 72,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 2)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 73,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 2)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 74,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 2)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 75,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 2)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 76,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 3)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 77,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 3)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 78,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 3)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 79,
+            "question": "Wer war der erste römische Kaiser? (Variante 3)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 80,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 3)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 81,
+            "question": "Wann endete der Vietnamkrieg? (Variante 3)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 82,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 3)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 83,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 3)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 84,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 3)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 85,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 3)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 86,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 4)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 87,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 4)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 88,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 4)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 89,
+            "question": "Wer war der erste römische Kaiser? (Variante 4)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 90,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 4)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 91,
+            "question": "Wann endete der Vietnamkrieg? (Variante 4)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 92,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 4)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 93,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 4)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 94,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 4)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 95,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 4)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 96,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 5)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 97,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 5)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 98,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 5)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 99,
+            "question": "Wer war der erste römische Kaiser? (Variante 5)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 100,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 5)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 101,
+            "question": "Wann endete der Vietnamkrieg? (Variante 5)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 102,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 5)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 103,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 5)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 104,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 5)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 105,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 5)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 106,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 6)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 107,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 6)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 108,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 6)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 109,
+            "question": "Wer war der erste römische Kaiser? (Variante 6)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 110,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 6)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 111,
+            "question": "Wann endete der Vietnamkrieg? (Variante 6)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 112,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 6)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 113,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 6)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 114,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 6)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 115,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 6)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 116,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 7)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 117,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 7)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 118,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 7)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 119,
+            "question": "Wer war der erste römische Kaiser? (Variante 7)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 120,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 7)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 121,
+            "question": "Wann endete der Vietnamkrieg? (Variante 7)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 122,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 7)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 123,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 7)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 124,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 7)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 125,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 7)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 126,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 8)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 127,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 8)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 128,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 8)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 129,
+            "question": "Wer war der erste römische Kaiser? (Variante 8)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 130,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 8)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 131,
+            "question": "Wann endete der Vietnamkrieg? (Variante 8)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 132,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 8)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 133,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 8)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 134,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 8)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 135,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 8)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 136,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 9)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 137,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 9)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 138,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 9)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 139,
+            "question": "Wer war der erste römische Kaiser? (Variante 9)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 140,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 9)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 141,
+            "question": "Wann endete der Vietnamkrieg? (Variante 9)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 142,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 9)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 143,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 9)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 144,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 9)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 145,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 9)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 146,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 10)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 147,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 10)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 148,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 10)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 149,
+            "question": "Wer war der erste römische Kaiser? (Variante 10)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 150,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 10)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 151,
+            "question": "Wann endete der Vietnamkrieg? (Variante 10)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 152,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 10)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 153,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 10)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 154,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 10)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 155,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 10)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 156,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 11)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 157,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 11)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 158,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 11)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 159,
+            "question": "Wer war der erste römische Kaiser? (Variante 11)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 160,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 11)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 161,
+            "question": "Wann endete der Vietnamkrieg? (Variante 11)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 162,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 11)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 163,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 11)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 164,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 11)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 165,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 11)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 166,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 12)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 167,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 12)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 168,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 12)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 169,
+            "question": "Wer war der erste römische Kaiser? (Variante 12)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 170,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 12)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 171,
+            "question": "Wann endete der Vietnamkrieg? (Variante 12)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 172,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 12)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 173,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 12)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 174,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 12)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 175,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 12)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 176,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 13)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 177,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 13)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 178,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 13)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 179,
+            "question": "Wer war der erste römische Kaiser? (Variante 13)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 180,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 13)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 181,
+            "question": "Wann endete der Vietnamkrieg? (Variante 13)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 182,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 13)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 183,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 13)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 184,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 13)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 185,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 13)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 186,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 14)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 187,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 14)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 188,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 14)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 189,
+            "question": "Wer war der erste römische Kaiser? (Variante 14)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 190,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 14)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 191,
+            "question": "Wann endete der Vietnamkrieg? (Variante 14)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 192,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 14)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 193,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 14)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 194,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 14)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 195,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 14)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 196,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 15)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 197,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 15)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 198,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 15)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 199,
+            "question": "Wer war der erste römische Kaiser? (Variante 15)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 200,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 15)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 201,
+            "question": "Wann endete der Vietnamkrieg? (Variante 15)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 202,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 15)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 203,
+            "question": "Wer baute die erste Dampfmaschine? (Variante 15)",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 204,
+            "question": "In welchem Jahr fiel die Berliner Mauer? (Variante 15)",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 205,
+            "question": "Welches Imperium kontrollierte das antike Ägypten? (Variante 15)",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 206,
+            "question": "Wann wurde die erste Mondlandung übertragen? (Variante 16)",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 207,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab? (Variante 16)",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 208,
+            "question": "In welchem Jahr wurde die UNO gegründet? (Variante 16)",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 209,
+            "question": "Wer war der erste römische Kaiser? (Variante 16)",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 210,
+            "question": "Welche Revolution begann 1917 in Russland? (Variante 16)",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 211,
+            "question": "Wann endete der Vietnamkrieg? (Variante 16)",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 212,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus? (Variante 16)",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        }
+    ]
+}

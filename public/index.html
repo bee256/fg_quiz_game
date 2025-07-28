@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Spiel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 Quiz Spiel</h1>
+            <div class="score-display">
+                <span id="score">Punkte: 0</span>
+                <span id="question-counter">Frage: 0/0</span>
+            </div>
+        </header>
+
+        <main>
+            <!-- Kategorie-Auswahl -->
+            <div id="category-selection" class="screen active">
+                <h2>Wähle dein Wissensgebiet</h2>
+                <div class="category-grid">
+                    <!-- Kategorien werden dynamisch geladen -->
+                </div>
+            </div>
+
+            <!-- Quiz-Bereich -->
+            <div id="quiz-area" class="screen">
+                <div class="progress-bar">
+                    <div id="progress" class="progress-fill"></div>
+                </div>
+                
+                <div class="question-container">
+                    <h2 id="question-text">Hier erscheint die Frage</h2>
+                    <div class="answers-container">
+                        <button class="answer-btn" id="answer-0"></button>
+                        <button class="answer-btn" id="answer-1"></button>
+                        <button class="answer-btn" id="answer-2"></button>
+                        <button class="answer-btn" id="answer-3"></button>
+                    </div>
+                </div>
+
+                <div class="quiz-controls">
+                    <button id="next-btn" class="control-btn" style="display: none;">Nächste Frage</button>
+                    <button id="back-to-categories" class="control-btn secondary">Zurück zu Kategorien</button>
+                </div>
+            </div>
+
+            <!-- Ergebnis-Bildschirm -->
+            <div id="result-screen" class="screen">
+                <h2>Quiz beendet!</h2>
+                <div class="result-info">
+                    <div class="result-score">
+                        <h3 id="final-score">0/0 Punkte</h3>
+                        <p id="result-message">Gut gemacht!</p>
+                    </div>
+                    <div class="result-percentage">
+                        <div class="percentage-circle">
+                            <span id="percentage-text">0%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-controls">
+                    <button id="restart-quiz" class="control-btn">Nochmal spielen</button>
+                    <button id="new-category" class="control-btn secondary">Neue Kategorie</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

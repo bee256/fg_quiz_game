@@ -1,0 +1,143 @@
+{
+    "metadata": {
+        "categoryId": "friedrich-gymnasium",
+        "displayName": "Friedrich-Gymnasium Freiburg",
+        "description": "Fragen über das Friedrich-Gymnasium in Freiburg im Breisgau",
+        "icon": "🏫",
+        "order": 1
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "In welcher Stadt befindet sich das Friedrich-Gymnasium?",
+            "answers": [
+                "Freiburg im Breisgau",
+                "Freiburg an der Elbe",
+                "Freiburg in Sachsen",
+                "Freiburg am Main"
+            ],
+            "correct": 0
+        },
+    {
+        "id": 2,
+        "question": "In welchem Jahr wurde das Friedrich-Gymnasium gegründet?",
+        "answers": [
+            "1904",
+            "1906",
+            "1908",
+            "1910"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 3,
+        "question": "Nach wem ist das Friedrich-Gymnasium benannt?",
+        "answers": [
+            "Friedrich Schiller",
+            "Friedrich der Große",
+            "Friedrich Nietzsche",
+            "Friedrich Barbarossa"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 4,
+        "question": "Welche Fremdsprachen werden am Friedrich-Gymnasium hauptsächlich unterrichtet?",
+        "answers": [
+            "Englisch und Spanisch",
+            "Französisch und Latein",
+            "Englisch und Französisch",
+            "Latein und Griechisch"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 5,
+        "question": "Das Friedrich-Gymnasium liegt in welchem Stadtteil von Freiburg?",
+        "answers": [
+            "Herdern",
+            "Wiehre",
+            "Stühlinger",
+            "Innenstadt"
+        ],
+        "correct": 0
+    },
+    {
+        "id": 6,
+        "question": "Welcher Schultyp ist das Friedrich-Gymnasium?",
+        "answers": [
+            "Realschule",
+            "Gymnasium",
+            "Gesamtschule",
+            "Berufsschule"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 7,
+        "question": "Das Friedrich-Gymnasium ist bekannt für seinen Schwerpunkt in:",
+        "answers": [
+            "Naturwissenschaften",
+            "Sprachen",
+            "Sport",
+            "Musik und Kunst"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 8,
+        "question": "Wie viele Schüler besuchen etwa das Friedrich-Gymnasium?",
+        "answers": [
+            "Etwa 500",
+            "Etwa 800",
+            "Etwa 1200",
+            "Etwa 1500"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 9,
+        "question": "Das Schulgebäude des Friedrich-Gymnasiums stammt aus welcher Zeit?",
+        "answers": [
+            "19. Jahrhundert",
+            "Frühem 20. Jahrhundert",
+            "1950er Jahren",
+            "1980er Jahren"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 10,
+        "question": "Welche besondere Ausstattung hat das Friedrich-Gymnasium?",
+        "answers": [
+            "Eigenes Schwimmbad",
+            "Sternwarte",
+            "Theater",
+            "Alle genannten"
+        ],
+        "correct": 2
+    },
+    {
+        "id": 11,
+        "question": "In welchem Bundesland liegt das Friedrich-Gymnasium?",
+        "answers": [
+            "Bayern",
+            "Baden-Württemberg",
+            "Hessen",
+            "Rheinland-Pfalz"
+        ],
+        "correct": 1
+    },
+    {
+            "id": 12,
+            "question": "Das Friedrich-Gymnasium bietet welche Abschlüsse an?",
+            "answers": [
+                "Nur Abitur",
+                "Abitur und Realschulabschluss",
+                "Hauptschul- und Realschulabschluss",
+                "Alle Schulabschlüsse"
+            ],
+            "correct": 0
+        }
+    ]
+}
