@@ -1,0 +1,31 @@
+[Unit]
+Description=FG Quiz Game Node.js Application
+Documentation=https://github.com/beeava/fg-project-2025-quiz
+After=network.target
+
+[Service]
+Type=simple
+User=game
+WorkingDirectory=/home/game/fg-project-2025-quiz
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+RestartSec=10
+Environment=NODE_ENV=production
+Environment=PORT=3000
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/www/fg-quiz
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=fg-quiz
+
+[Install]
+WantedBy=multi-user.target

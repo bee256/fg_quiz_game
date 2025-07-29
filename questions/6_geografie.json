@@ -589,6 +589,186 @@
                 "Portugal"
             ],
             "correct": 1
+        },
+        {
+            "id": 102,
+            "question": "Welche Insel ist die größte der Welt?",
+            "answers": ["Australien", "Grönland", "Neuguinea", "Borneo"],
+            "correct": 1
+        },
+        {
+            "id": 103,
+            "question": "Welche Hauptstadt liegt am Fuß der Anden?",
+            "answers": ["Santiago de Chile", "La Paz", "Quito", "Bogotá"],
+            "correct": 0
+        },
+        {
+            "id": 104,
+            "question": "Wie viele Kontinente gibt es auf der Erde?",
+            "answers": ["5", "6", "7", "8"],
+            "correct": 2
+        },
+        {
+            "id": 105,
+            "question": "Welche Stadt ist die Hauptstadt von Island?",
+            "answers": ["Reykjavík", "Akureyri", "Hafnarfjörður", "Kópavogur"],
+            "correct": 0
+        },
+        {
+            "id": 106,
+            "question": "Welcher Fluss durchquert Budapest?",
+            "answers": ["Donau", "Tisza", "Theiß", "Save"],
+            "correct": 0
+        },
+        {
+            "id": 107,
+            "question": "Welches Land hat die Hauptstadt 'Helsinki'?",
+            "answers": ["Schweden", "Estland", "Norwegen", "Finnland"],
+            "correct": 3
+        },
+        {
+            "id": 108,
+            "question": "Wie heißt die Halbinsel, auf der Spanien und Portugal liegen?",
+            "answers": ["Balkanhalbinsel", "Skandinavische Halbinsel", "Iberische Halbinsel", "Italienische Halbinsel"],
+            "correct": 2
+        },
+        {
+            "id": 109,
+            "question": "Welche Wüste liegt im Südwesten Afrikas?",
+            "answers": ["Sahara", "Namib", "Kalahari", "Gobi"],
+            "correct": 1
+        },
+        {
+            "id": 110,
+            "question": "Wie heißt der größte Ozean der Erde?",
+            "answers": ["Atlantik", "Pazifik", "Indischer Ozean", "Antarktischer Ozean"],
+            "correct": 1
+        },
+        {
+            "id": 111,
+            "question": "Welches Land hat keine Küste?",
+            "answers": ["Polen", "Tschechien", "Griechenland", "Frankreich"],
+            "correct": 1
+        },
+        {
+            "id": 112,
+            "question": "Welches Land liegt sowohl in Europa als auch in Asien?",
+            "answers": ["Russland", "Griechenland", "Kasachstan", "Armenien"],
+            "correct": 0
+        },
+        {
+            "id": 113,
+            "question": "Welcher Fluss fließt durch London?",
+            "answers": ["Seine", "Themse", "Elbe", "Donau"],
+            "correct": 1
+        },
+        {
+            "id": 114,
+            "question": "Wie heißt die Hauptstadt von Argentinien?",
+            "answers": ["Buenos Aires", "Lima", "Montevideo", "Santiago"],
+            "correct": 0
+        },
+        {
+            "id": 115,
+            "question": "Welcher See liegt zwischen Israel und Jordanien?",
+            "answers": ["Toten Meer", "Kaspisches Meer", "Galiläisches Meer", "Aralsee"],
+            "correct": 0
+        },
+        {
+            "id": 116,
+            "question": "Welches Gebirge trennt Europa von Asien?",
+            "answers": ["Alpen", "Ural", "Kaukasus", "Himalaya"],
+            "correct": 1
+        },
+        {
+            "id": 117,
+            "question": "Welches Land hat die meisten Vulkane?",
+            "answers": ["Indonesien", "Japan", "Island", "USA"],
+            "correct": 0
+        },
+        {
+            "id": 118,
+            "question": "Wie heißt der höchste Berg Afrikas?",
+            "answers": ["Mount Kenya", "Ruwenzori", "Kilimandscharo", "Toubkal"],
+            "correct": 2
+        },
+        {
+            "id": 119,
+            "question": "Welche Hauptstadt liegt am Bosporus?",
+            "answers": ["Ankara", "Istanbul", "Athen", "Sofia"],
+            "correct": 1
+        },
+        {
+            "id": 120,
+            "question": "Wie heißt die Hauptstadt von Australien?",
+            "answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+            "correct": 2
+        },
+        {
+            "id": 121,
+            "question": "Welcher Staat besteht aus zwei Hauptinseln?",
+            "answers": ["Japan", "Philippinen", "Neuseeland", "Indonesien"],
+            "correct": 2
+        },
+        {
+            "id": 122,
+            "question": "Wie heißt die Hauptstadt der Schweiz?",
+            "answers": ["Zürich", "Bern", "Genf", "Basel"],
+            "correct": 1
+        },
+        {
+            "id": 123,
+            "question": "Welcher Staat grenzt nicht an Deutschland?",
+            "answers": ["Dänemark", "Polen", "Tschechien", "Italien"],
+            "correct": 3
+        },
+        {
+            "id": 124,
+            "question": "In welchem Land liegt der Grand Canyon?",
+            "answers": ["Kanada", "Mexiko", "USA", "Brasilien"],
+            "correct": 2
+        },
+        {
+            "id": 125,
+            "question": "Welche Hauptstadt liegt am Tiber?",
+            "answers": ["Rom", "Madrid", "Lissabon", "Paris"],
+            "correct": 0
+        },
+        {
+            "id": 126,
+            "question": "Wie heißt das größte Binnenmeer der Welt?",
+            "answers": ["Totes Meer", "Schwarzes Meer", "Kaspisches Meer", "Ostsee"],
+            "correct": 2
+        },
+        {
+            "id": 127,
+            "question": "Welches Land hat die Hauptstadt 'Manila'?",
+            "answers": ["Malaysia", "Philippinen", "Thailand", "Vietnam"],
+            "correct": 1
+        },
+        {
+            "id": 128,
+            "question": "Welches europäische Land hat die meisten Nachbarn?",
+            "answers": ["Frankreich", "Deutschland", "Polen", "Österreich"],
+            "correct": 1
+        },
+        {
+            "id": 129,
+            "question": "Welche Stadt liegt auf zwei Kontinenten?",
+            "answers": ["Istanbul", "Moskau", "Athen", "Jerusalem"],
+            "correct": 0
+        },
+        {
+            "id": 130,
+            "question": "Welcher See ist der größte in Südamerika?",
+            "answers": ["Titicacasee", "Maracaibo-See", "Poopó-See", "Argentino-See"],
+            "correct": 1
+        },
+        {
+            "id": 131,
+            "question": "Welcher Fluss bildet die Grenze zwischen Mexiko und den USA?",
+            "answers": ["Missouri", "Colorado", "Rio Grande", "Mississippi"],
+            "correct": 2
         }
     ]
 }

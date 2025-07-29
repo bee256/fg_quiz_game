@@ -589,6 +589,186 @@
                 "Haydn"
             ],
             "correct": 1
+        },
+        {
+            "id": 114,
+            "question": "Wer malte das Deckenfresko der Sixtinischen Kapelle?",
+            "answers": ["Leonardo da Vinci", "Michelangelo", "Raffael", "Donatello"],
+            "correct": 1
+        },
+        {
+            "id": 115,
+            "question": "Welcher Komponist war im Barock tätig?",
+            "answers": ["Beethoven", "Mozart", "Bach", "Chopin"],
+            "correct": 2
+        },
+        {
+            "id": 116,
+            "question": "Wer schrieb 'Die Leiden des jungen Werthers'?",
+            "answers": ["Schiller", "Goethe", "Heine", "Hölderlin"],
+            "correct": 1
+        },
+        {
+            "id": 117,
+            "question": "Welche Musikrichtung prägte Ludwig van Beethoven entscheidend?",
+            "answers": ["Barock", "Romantik", "Klassik", "Moderne"],
+            "correct": 2
+        },
+        {
+            "id": 118,
+            "question": "Was ist das Hauptthema von Dantes 'Göttlicher Komödie'?",
+            "answers": ["Die römische Geschichte", "Eine Liebesgeschichte", "Eine Reise durch das Jenseits", "Das Leben Dantes"],
+            "correct": 2
+        },
+        {
+            "id": 119,
+            "question": "Welcher Künstler war ein Vertreter des Surrealismus?",
+            "answers": ["Monet", "Dalí", "Cézanne", "Matisse"],
+            "correct": 1
+        },
+        {
+            "id": 120,
+            "question": "Wer schrieb 'Die Dreigroschenoper'?",
+            "answers": ["Brecht", "Goethe", "Kafka", "Schiller"],
+            "correct": 0
+        },
+        {
+            "id": 121,
+            "question": "Welche Farbe dominiert in der Kunstperiode des Expressionismus?",
+            "answers": ["Pastelltöne", "Dunkelblau", "Kräftige Farben", "Grautöne"],
+            "correct": 2
+        },
+        {
+            "id": 122,
+            "question": "Wer war der Komponist der Oper 'Tristan und Isolde'?",
+            "answers": ["Mozart", "Beethoven", "Wagner", "Verdi"],
+            "correct": 2
+        },
+        {
+            "id": 123,
+            "question": "Welcher Künstler ist für seine Schmelzenden Uhren bekannt?",
+            "answers": ["Dalí", "Picasso", "Magritte", "Chagall"],
+            "correct": 0
+        },
+        {
+            "id": 124,
+            "question": "Welcher Komponist war taub und schrieb trotzdem berühmte Musik?",
+            "answers": ["Mozart", "Chopin", "Beethoven", "Bach"],
+            "correct": 2
+        },
+        {
+            "id": 125,
+            "question": "Welcher Künstler war bekannt für seine Suppendosen-Gemälde?",
+            "answers": ["Roy Lichtenstein", "Andy Warhol", "Jackson Pollock", "Keith Haring"],
+            "correct": 1
+        },
+        {
+            "id": 126,
+            "question": "Wer schrieb das Drama 'Woyzeck'?",
+            "answers": ["Goethe", "Büchner", "Schiller", "Lessing"],
+            "correct": 1
+        },
+        {
+            "id": 127,
+            "question": "Wie nennt man eine Skulptur aus Stein oder Marmor?",
+            "answers": ["Gemälde", "Relief", "Statue", "Fresko"],
+            "correct": 2
+        },
+        {
+            "id": 128,
+            "question": "Was war das Hauptmerkmal des Impressionismus?",
+            "answers": ["Exakte Linien", "Realistische Schatten", "Licht- und Farbeindrücke", "Kubische Formen"],
+            "correct": 2
+        },
+        {
+            "id": 129,
+            "question": "Wer komponierte die Oper 'La Bohème'?",
+            "answers": ["Verdi", "Puccini", "Rossini", "Donizetti"],
+            "correct": 1
+        },
+        {
+            "id": 130,
+            "question": "Wer schrieb die 'Zauberflöte'?",
+            "answers": ["Beethoven", "Haydn", "Mozart", "Schubert"],
+            "correct": 2
+        },
+        {
+            "id": 131,
+            "question": "In welcher Stadt befindet sich das Museum Prado?",
+            "answers": ["Rom", "Paris", "Madrid", "Lissabon"],
+            "correct": 2
+        },
+        {
+            "id": 132,
+            "question": "Welcher Komponist schrieb neun Sinfonien und starb vor der Vollendung der zehnten?",
+            "answers": ["Mahler", "Schubert", "Beethoven", "Bruckner"],
+            "correct": 2
+        },
+        {
+            "id": 133,
+            "question": "Welcher Künstler war bekannt für seine bunten Glasfenster in Kirchen?",
+            "answers": ["Kandinsky", "Chagall", "Klee", "Mondrian"],
+            "correct": 1
+        },
+        {
+            "id": 134,
+            "question": "Wer schrieb das Theaterstück 'Mutter Courage und ihre Kinder'?",
+            "answers": ["Brecht", "Goethe", "Schiller", "Lessing"],
+            "correct": 0
+        },
+        {
+            "id": 135,
+            "question": "Was ist ein Fresko?",
+            "answers": ["Ein Relief aus Marmor", "Eine Ölskizze", "Ein Wandgemälde auf feuchtem Putz", "Eine Glaskunst"],
+            "correct": 2
+        },
+        {
+            "id": 136,
+            "question": "Welcher Maler war Hauptvertreter des Pointillismus?",
+            "answers": ["Paul Cézanne", "Georges Seurat", "Henri Matisse", "Claude Monet"],
+            "correct": 1
+        },
+        {
+            "id": 137,
+            "question": "Wie heißt das berühmte Opernhaus in Sydney?",
+            "answers": ["Royal Opera House", "Sydney Opera House", "La Scala", "Bolshoi-Theater"],
+            "correct": 1
+        },
+        {
+            "id": 138,
+            "question": "Wer komponierte die Oper 'Carmen'?",
+            "answers": ["Bizet", "Verdi", "Puccini", "Donizetti"],
+            "correct": 0
+        },
+        {
+            "id": 139,
+            "question": "Welche Kunstepoche wird mit Leonardo da Vinci verbunden?",
+            "answers": ["Barock", "Renaissance", "Romantik", "Klassizismus"],
+            "correct": 1
+        },
+        {
+            "id": 140,
+            "question": "Welches Instrument spielt man in einem klassischen Streichquartett nicht?",
+            "answers": ["Geige", "Bratsche", "Cello", "Oboe"],
+            "correct": 3
+        },
+        {
+            "id": 141,
+            "question": "Welcher deutsche Dichter schrieb 'Der Erlkönig'?",
+            "answers": ["Schiller", "Goethe", "Heine", "Storm"],
+            "correct": 1
+        },
+        {
+            "id": 142,
+            "question": "Wer war ein berühmter Architekt des Bauhauses?",
+            "answers": ["Walter Gropius", "Le Corbusier", "Frank Lloyd Wright", "Antoni Gaudí"],
+            "correct": 0
+        },
+        {
+            "id": 143,
+            "question": "Welche Farbe war für Henri Matisse besonders charakteristisch?",
+            "answers": ["Blau", "Rot", "Grün", "Gelb"],
+            "correct": 1
         }
     ]
 }
