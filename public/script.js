@@ -89,21 +89,8 @@ class QuizGame {
     }
     
     createTimerElements() {
-        // Timer in die Score-Anzeige einfügen
-        const timerElement = document.createElement('span');
-        timerElement.id = 'timer-display';
-        timerElement.textContent = 'Zeit: --';
-        timerElement.style.cssText = `
-            color: #4facfe;
-            font-weight: bold;
-            font-size: 1.1em;
-        `;
-        
-        // Timer nach dem Score einfügen
-        const scoreDisplay = document.querySelector('.score-display');
-        scoreDisplay.appendChild(timerElement);
-        
-        this.timerDisplay = timerElement;
+        // Nur Timer-Balken erstellen, keine Zeitanzeige im Header
+        this.timerDisplay = null; // Keine Header-Zeitanzeige mehr
         
         // Timer-Balken in die Fragebox integrieren - wird später beim displayQuestion eingefügt
         this.createTimerBar();
@@ -552,9 +539,8 @@ class QuizGame {
     updateTimerDisplay() {
         if (!this.timerBar || !this.timerSeconds) return;
         
-        // Text-Anzeigen aktualisieren
+        // Nur Timer-Balken und Balken-Text aktualisieren (keine Header-Anzeige mehr)
         this.timerSeconds.textContent = `${this.timeLeft}s`;
-        this.timerDisplay.textContent = `Zeit: ${this.timeLeft}s`;
         
         // Timer-Balken aktualisieren
         const progress = (this.timeLeft / this.timeLimit) * 100;
@@ -1034,7 +1020,7 @@ class QuizGame {
         
         this.scoreDisplay.textContent = 'Punkte: 0';
         this.questionCounter.textContent = 'Frage: 0/0';
-        this.timerDisplay.textContent = 'Zeit: --';
+        // Keine Header-Zeitanzeige mehr zu resetten
         this.progressBar.style.width = '0%';
         this.nextButton.textContent = 'Nächste Frage';
         
