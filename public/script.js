@@ -977,9 +977,13 @@ class QuizGame {
         if (this.sessionId) {
             await this.endSession();
         }
-        // Restart mit derselben Kategorie - hier nehmen wir die letzte verwendete
-        const lastCategory = this.categoryGrid.querySelector('.category-btn').dataset.category;
-        await this.startQuiz(lastCategory);
+        // Restart mit derselben Kategorie wie vorher gespielt
+        if (this.currentCategory) {
+            await this.startQuiz(this.currentCategory);
+        } else {
+            // Fallback: Zurück zur Kategorieauswahl falls keine aktuelle Kategorie gesetzt ist
+            this.showCategorySelection();
+        }
     }
     
     async endSession() {

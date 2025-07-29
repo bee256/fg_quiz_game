@@ -652,7 +652,7 @@
         },
         {
             "id": 124,
-            "question": "Welcher Komponist war taub und schrieb trotzdem berühmte Musik?",
+            "question": "Welcher Komponist wurde taub und schrieb trotzdem berühmte Musik?",
             "answers": ["Mozart", "Chopin", "Beethoven", "Bach"],
             "correct": 2
         },
@@ -769,6 +769,48 @@
             "question": "Welche Farbe war für Henri Matisse besonders charakteristisch?",
             "answers": ["Blau", "Rot", "Grün", "Gelb"],
             "correct": 1
+        },
+        {
+            "id": 144,
+            "question": "Wie viele vollständige Sinfonien komponierte Gustav Mahler?",
+            "answers": ["5", "6", "8", "9"],
+            "correct": 3
+        },
+        {
+            "id": 145,
+            "question": "Wie viele Sinfonien komponierte Wolfgang Amadeus Mozart?",
+            "answers": ["21", "31", "41", "51"],
+            "correct": 2
+        },
+        {
+            "id": 146,
+            "question": "Welchen Namen trägt die 6. Sinfonie von Beethoven?",
+            "answers": ["Pastorale", "Eroica", "Ode an die Freude", "Schicksals-Sinfonie"],
+            "correct": 0
+        },
+        {
+            "id": 147,
+            "question": "Wem widmete Anton Bruckner seine 8. Sinfonie?",
+            "answers": ["Dem lieben Gott", "Napoleon", "Alma Werfel", "Kaiser Wilhelm II"],
+            "correct": 0
+        },
+        {
+            "id": 148,
+            "question": "Wie viele Takte hat die Lohengrin-Ouvertüre von Wagner?",
+            "answers": ["50", "75", "100", "125"],
+            "correct": 1
+        },
+        {
+            "id": 149,
+            "question": "Welchen Namen trägt die letzte Sinfonie von Wolfgang Amadeus Mozart?",
+            "answers": ["Saturn", "Jupiter", "Neptun", "Uranus"],
+            "correct": 1
+        },
+        {
+            "id": 150,
+            "question": "Wer schrieb die Sinfonie, die als »Die Unvollendete« bekannt ist?",
+            "answers": ["Franz Schubert", "Gustav Mahler", "Anton Bruckner", "Johannes Brahms"],
+            "correct": 0
         }
     ]
 }
