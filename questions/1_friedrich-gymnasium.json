@@ -27,7 +27,7 @@
             "1908",
             "1910"
         ],
-        "correct": 1
+        "correct": 0
     },
     {
         "id": 3,
@@ -46,7 +46,7 @@
         "answers": [
             "Englisch und Spanisch",
             "Französisch und Latein",
-            "Englisch und Französisch",
+            "Englisch und Latein",
             "Latein und Griechisch"
         ],
         "correct": 2
@@ -93,7 +93,7 @@
             "Etwa 800",
             "Etwa 1200"
         ],
-        "correct": 2
+        "correct": 1
     },
     {
         "id": 9,
@@ -137,7 +137,7 @@
                 "Hauptschul- und Realschulabschluss",
                 "Alle Schulabschlüsse"
             ],
-            "correct": 0
+            "correct": 1
         }
     ]
 }

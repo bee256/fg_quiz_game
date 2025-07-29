@@ -31,6 +31,30 @@ function shuffleArray(array) {
     return shuffled;
 }
 
+// Hilfsfunktion zum Mischen der Antworten einer Frage
+function shuffleAnswers(question) {
+    const originalAnswers = [...question.answers];
+    const originalCorrect = question.correct;
+    const correctAnswer = originalAnswers[originalCorrect];
+    
+    // Array mit Indizes erstellen und mischen
+    const indices = Array.from({ length: originalAnswers.length }, (_, i) => i);
+    const shuffledIndices = shuffleArray(indices);
+    
+    // Antworten in neuer Reihenfolge erstellen
+    const shuffledAnswers = shuffledIndices.map(i => originalAnswers[i]);
+    
+    // Neuen Index für die richtige Antwort finden
+    const newCorrectIndex = shuffledAnswers.indexOf(correctAnswer);
+    
+    return {
+        ...question,
+        answers: shuffledAnswers,
+        correct: newCorrectIndex,
+        originalCorrect: originalCorrect // Für Debugging
+    };
+}
+
 // API Endpoints
 
 // Alle verfügbaren Kategorien abrufen
@@ -66,6 +90,7 @@ app.post('/api/quiz/start', (req, res) => {
         category,
         questions: selectedQuestions,
         currentQuestionIndex: 0,
+        currentShuffledQuestion: null, // Wird bei jeder Frage neu gesetzt
         score: 0,
         answers: [],
         startTime: Date.now(),
@@ -97,13 +122,19 @@ app.get('/api/quiz/:sessionId/question', (req, res) => {
         return res.status(400).json({ error: 'Quiz bereits beendet' });
     }
     
-    const question = sessionQuestions[currentQuestionIndex];
+    const originalQuestion = sessionQuestions[currentQuestionIndex];
+    
+    // Antworten für diese Frage mischen
+    const shuffledQuestion = shuffleAnswers(originalQuestion);
+    
+    // Gemischte Frage in der Session speichern (für Antwort-Vergleich)
+    session.currentShuffledQuestion = shuffledQuestion;
     
     // Timer für diese Frage starten
     session.questionStartTime = Date.now();
     
     // Antwort nicht an Client senden
-    const { correct, ...questionWithoutAnswer } = question;
+    const { correct, originalCorrect, ...questionWithoutAnswer } = shuffledQuestion;
     
     res.json({
         ...questionWithoutAnswer,
@@ -130,8 +161,9 @@ app.post('/api/quiz/:sessionId/answer', (req, res) => {
         return res.status(400).json({ error: 'Quiz bereits beendet' });
     }
     
-    const question = sessionQuestions[currentQuestionIndex];
-    const isCorrect = answerIndex === question.correct;
+    // Verwende die gemischte Frage für die Antwort-Überprüfung
+    const shuffledQuestion = session.currentShuffledQuestion;
+    const isCorrect = answerIndex === shuffledQuestion.correct;
     
     // Zeit-Berechnung
     const currentTime = Date.now();
@@ -160,9 +192,10 @@ app.post('/api/quiz/:sessionId/answer', (req, res) => {
     
     session.totalTimeSpent += Math.min(questionTime, QUESTION_TIME_LIMIT);
     
-    // Antwort speichern
+    // Antwort speichern (verwende Original-Frage für die ID)
+    const originalQuestion = sessionQuestions[currentQuestionIndex];
     session.answers.push({
-        questionId: question.id,
+        questionId: originalQuestion.id,
         answerIndex,
         correct: isCorrect,
         timeSpent: questionTime,
@@ -175,7 +208,7 @@ app.post('/api/quiz/:sessionId/answer', (req, res) => {
     
     res.json({
         correct: isCorrect,
-        correctAnswer: question.correct,
+        correctAnswer: shuffledQuestion.correct,
         score: session.score,
         timeSpent: questionTime,
         timeBonus: timeBonus,
@@ -200,7 +233,8 @@ app.post('/api/quiz/:sessionId/timeout', (req, res) => {
         return res.status(400).json({ error: 'Quiz bereits beendet' });
     }
     
-    const question = sessionQuestions[currentQuestionIndex];
+    const originalQuestion = sessionQuestions[currentQuestionIndex];
+    const shuffledQuestion = session.currentShuffledQuestion;
     
     // Zeit-Berechnung für Timeout
     const currentTime = Date.now();
@@ -210,7 +244,7 @@ app.post('/api/quiz/:sessionId/timeout', (req, res) => {
     
     // Antwort als falsch/timeout speichern
     session.answers.push({
-        questionId: question.id,
+        questionId: originalQuestion.id,
         answerIndex: -1, // -1 für Timeout
         correct: false,
         timeSpent: questionTime,
@@ -224,7 +258,7 @@ app.post('/api/quiz/:sessionId/timeout', (req, res) => {
     
     res.json({
         correct: false,
-        correctAnswer: question.correct,
+        correctAnswer: shuffledQuestion.correct,
         score: session.score,
         timeSpent: questionTime,
         timeBonus: 0,
