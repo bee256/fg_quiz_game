@@ -82,7 +82,7 @@ class QuizGame {
                 margin-bottom: 20px;
                 background: #f8f9fa;
                 border-radius: 10px;
-                padding: 15px;
+                padding: 12px;
                 border: 2px solid #e9ecef;
             }
             
@@ -90,7 +90,7 @@ class QuizGame {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-bottom: 10px;
+                margin-bottom: 8px;
             }
             
             .timer-label {
@@ -98,14 +98,15 @@ class QuizGame {
                 color: #333;
                 display: flex;
                 align-items: center;
-                gap: 8px;
+                gap: 6px;
+                font-size: 0.95em;
             }
             
             .timer-text {
-                font-size: 1.2em;
+                font-size: 1.1em;
                 font-weight: bold;
                 color: #4facfe;
-                min-width: 40px;
+                min-width: 35px;
                 text-align: right;
             }
             
@@ -125,9 +126,9 @@ class QuizGame {
             
             .timer-bar-track {
                 width: 100%;
-                height: 8px;
+                height: 6px;
                 background: #e0e0e0;
-                border-radius: 4px;
+                border-radius: 3px;
                 overflow: hidden;
                 position: relative;
             }
@@ -135,7 +136,7 @@ class QuizGame {
             .timer-bar-fill {
                 height: 100%;
                 background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
-                border-radius: 4px;
+                border-radius: 3px;
                 transition: width 1s linear, background 0.3s ease;
                 width: 100%;
             }
@@ -152,6 +153,50 @@ class QuizGame {
             @keyframes barPulse {
                 from { opacity: 1; }
                 to { opacity: 0.7; }
+            }
+            
+            @media (max-width: 768px) {
+                .timer-container {
+                    padding: 10px;
+                    margin-bottom: 15px;
+                }
+                
+                .timer-header {
+                    margin-bottom: 6px;
+                }
+                
+                .timer-label {
+                    font-size: 0.9em;
+                    gap: 4px;
+                }
+                
+                .timer-text {
+                    font-size: 1em;
+                    min-width: 30px;
+                }
+                
+                .timer-bar-track {
+                    height: 5px;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .timer-container {
+                    padding: 8px;
+                    margin-bottom: 12px;
+                }
+                
+                .timer-label {
+                    font-size: 0.85em;
+                }
+                
+                .timer-text {
+                    font-size: 0.95em;
+                }
+                
+                .timer-bar-track {
+                    height: 4px;
+                }
             }
         `;
         document.head.appendChild(timerStyle);
@@ -600,8 +645,8 @@ class QuizGame {
         
         bonus.style.cssText = `
             position: fixed;
-            top: 30%;
-            right: 20px;
+            top: 20%;
+            right: 15px;
             z-index: 1000;
             animation: slideInOut 3s ease-in-out;
         `;
@@ -611,34 +656,75 @@ class QuizGame {
             .score-popup {
                 background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
                 color: white;
-                padding: 15px 20px;
-                border-radius: 15px;
+                padding: 12px 16px;
+                border-radius: 12px;
                 text-align: center;
-                box-shadow: 0 10px 30px rgba(79, 172, 254, 0.3);
+                box-shadow: 0 8px 25px rgba(79, 172, 254, 0.3);
+                min-width: 120px;
             }
             
             .score-popup .points {
-                font-size: 1.4em;
+                font-size: 1.2em;
                 font-weight: bold;
-                margin-bottom: 5px;
+                margin-bottom: 4px;
             }
             
             .score-popup .time-info {
-                font-size: 0.9em;
+                font-size: 0.85em;
                 opacity: 0.9;
             }
             
             .score-popup .bonus {
-                font-size: 1.1em;
+                font-size: 1em;
                 font-weight: bold;
                 color: #ffeb3b;
-                margin-top: 5px;
+                margin-top: 4px;
             }
             
             @keyframes slideInOut {
                 0% { transform: translateX(100%); opacity: 0; }
                 20%, 80% { transform: translateX(0); opacity: 1; }
                 100% { transform: translateX(100%); opacity: 0; }
+            }
+            
+            @media (max-width: 768px) {
+                .score-popup {
+                    padding: 10px 12px;
+                    border-radius: 10px;
+                    min-width: 100px;
+                }
+                
+                .score-popup .points {
+                    font-size: 1.1em;
+                }
+                
+                .score-popup .time-info {
+                    font-size: 0.8em;
+                }
+                
+                .score-popup .bonus {
+                    font-size: 0.9em;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .score-popup {
+                    padding: 8px 10px;
+                    right: 10px;
+                    min-width: 90px;
+                }
+                
+                .score-popup .points {
+                    font-size: 1em;
+                }
+                
+                .score-popup .time-info {
+                    font-size: 0.75em;
+                }
+                
+                .score-popup .bonus {
+                    font-size: 0.85em;
+                }
             }
         `;
         document.head.appendChild(style);

@@ -14,7 +14,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,17 +22,17 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     backdrop-filter: blur(10px);
 }
 
 header h1 {
     color: white;
-    font-size: 2.5em;
-    margin-bottom: 15px;
+    font-size: 2em;
+    margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
@@ -56,7 +56,7 @@ main {
     width: 100%;
     background: white;
     border-radius: 20px;
-    padding: 40px;
+    padding: 25px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     text-align: center;
 }
@@ -73,8 +73,8 @@ main {
 }
 
 .category-btn {
-    padding: 25px 20px;
-    font-size: 1.2em;
+    padding: 20px 15px;
+    font-size: 1.1em;
     font-weight: bold;
     border: none;
     border-radius: 15px;
@@ -85,17 +85,17 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     text-align: center;
 }
 
 .category-btn .category-icon {
-    font-size: 2em;
-    margin-bottom: 5px;
+    font-size: 1.8em;
+    margin-bottom: 3px;
 }
 
 .category-btn .category-name {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     line-height: 1.2;
 }
@@ -130,25 +130,25 @@ main {
 }
 
 .question-container {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 #question-text {
-    font-size: 1.4em;
-    margin-bottom: 30px;
+    font-size: 1.2em;
+    margin-bottom: 25px;
     line-height: 1.5;
     color: #333;
 }
 
 .answers-container {
     display: grid;
-    gap: 15px;
-    margin-bottom: 30px;
+    gap: 12px;
+    margin-bottom: 25px;
 }
 
 .answer-btn {
-    padding: 20px;
-    font-size: 1.1em;
+    padding: 15px;
+    font-size: 1em;
     border: 2px solid #e0e0e0;
     border-radius: 12px;
     background: white;
@@ -192,8 +192,8 @@ main {
 }
 
 .control-btn {
-    padding: 15px 30px;
-    font-size: 1.1em;
+    padding: 12px 25px;
+    font-size: 1em;
     font-weight: bold;
     border: none;
     border-radius: 10px;
@@ -271,40 +271,169 @@ main {
 }
 
 @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
     .container {
         padding: 10px;
     }
     
+    header {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+    
     header h1 {
-        font-size: 2em;
+        font-size: 1.6em;
+        margin-bottom: 8px;
     }
     
     .score-display {
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
+        font-size: 0.95em;
     }
     
     .category-grid {
         grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 20px;
+    }
+    
+    .category-btn {
+        padding: 18px 12px;
+        font-size: 1em;
+    }
+    
+    .category-btn .category-icon {
+        font-size: 1.6em;
+    }
+    
+    .category-btn .category-name {
+        font-size: 0.95em;
+    }
+    
+    .category-btn .category-description {
+        font-size: 0.8em;
     }
     
     .screen {
         padding: 20px;
+        border-radius: 15px;
     }
     
     #question-text {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    
+    .question-container {
+        margin-bottom: 20px;
+    }
+    
+    .answers-container {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .answer-btn {
+        padding: 12px;
+        font-size: 0.95em;
+    }
+    
+    .quiz-controls {
+        gap: 10px;
+    }
+    
+    .control-btn {
+        padding: 10px 20px;
+        font-size: 0.95em;
     }
     
     .result-info {
         flex-direction: column;
+        margin: 25px 0;
+        gap: 20px;
+    }
+    
+    .result-score h3 {
+        font-size: 2em;
+    }
+    
+    .result-score p {
+        font-size: 1.1em;
+    }
+    
+    .percentage-circle {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .percentage-circle::before {
+        width: 70px;
+        height: 70px;
+    }
+    
+    #percentage-text {
+        font-size: 1.3em;
     }
     
     .result-controls {
         flex-direction: column;
+        gap: 12px;
     }
     
     .control-btn {
         width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 8px;
+    }
+    
+    header {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 1.4em;
+    }
+    
+    .screen {
+        padding: 15px;
+    }
+    
+    #question-text {
+        font-size: 1em;
+        margin-bottom: 18px;
+    }
+    
+    .answer-btn {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+    
+    .control-btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+    
+    .category-btn {
+        padding: 15px 10px;
+    }
+    
+    .category-btn .category-icon {
+        font-size: 1.4em;
+    }
+    
+    .category-btn .category-name {
+        font-size: 0.9em;
+    }
+    
+    .result-score h3 {
+        font-size: 1.8em;
     }
 }
