@@ -10,13 +10,51 @@
     <div class="container">
         <header>
             <h1>🧠 FG Projekt Quiz Spiel</h1>
-            <div class="score-display">
-                <span id="score">Punkte: 0</span>
-                <span id="question-counter">Frage: 0/0</span>
+            <div class="header-controls">
+                <div class="user-info">
+                    <span id="current-user">Gast</span>
+                    <button id="change-username" class="btn-small">👤 Name ändern</button>
+                </div>
+                <div class="score-display">
+                    <span id="score">Punkte: 0</span>
+                    <span id="question-counter">Frage: 0/0</span>
+                </div>
+                <div class="nav-links">
+                    <button id="view-highscores" class="btn-small">🏆 Highscores</button>
+                </div>
             </div>
         </header>
 
         <main>
+            <!-- Benutzername-Eingabe Modal -->
+            <div id="username-modal" class="modal">
+                <div class="modal-content">
+                    <h3>👤 Benutzername eingeben</h3>
+                    <p>Gib deinen Namen ein, um in der Highscore-Liste zu erscheinen!</p>
+                    <input type="text" id="username-input" placeholder="Dein Name..." maxlength="20">
+                    <div class="modal-buttons">
+                        <button id="save-username" class="control-btn">Speichern</button>
+                        <button id="cancel-username" class="control-btn secondary">Abbrechen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highscore Modal -->
+            <div id="highscore-modal" class="modal">
+                <div class="modal-content large">
+                    <h3>🏆 Highscores</h3>
+                    <div class="highscore-categories">
+                        <!-- Kategorie-Tabs werden dynamisch geladen -->
+                    </div>
+                    <div class="highscore-list">
+                        <!-- Highscore-Liste wird dynamisch geladen -->
+                    </div>
+                    <div class="modal-buttons">
+                        <button id="close-highscore" class="control-btn">Schließen</button>
+                    </div>
+                </div>
+            </div>
+
             <!-- Kategorie-Auswahl -->
             <div id="category-selection" class="screen active">
                 <h2>Wähle dein Wissensgebiet</h2>
@@ -54,6 +92,9 @@
                     <div class="result-score">
                         <h3 id="final-score">0/0 Punkte</h3>
                         <p id="result-message">Gut gemacht!</p>
+                        <div id="highscore-achievement" class="achievement" style="display: none;">
+                            🎉 Neuer Highscore! Du bist jetzt in der Bestenliste!
+                        </div>
                     </div>
                     <div class="result-percentage">
                         <div class="percentage-circle">
@@ -64,6 +105,7 @@
                 <div class="result-controls">
                     <button id="restart-quiz" class="control-btn">Nochmal spielen</button>
                     <button id="new-category" class="control-btn secondary">Neue Kategorie</button>
+                    <button id="view-category-highscore" class="control-btn secondary">🏆 Highscores anzeigen</button>
                 </div>
             </div>
         </main>

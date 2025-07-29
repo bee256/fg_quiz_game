@@ -1,0 +1,18 @@
+{
+  "allgemeinwissen": [
+    {
+      "username": "TestUser",
+      "score": 10,
+      "totalQuestions": 12,
+      "timestamp": 1722297600000
+    }
+  ],
+  "sport": [
+    {
+      "username": "SportFan",
+      "score": 8,
+      "totalQuestions": 12,
+      "timestamp": 1722297700000
+    }
+  ]
+}

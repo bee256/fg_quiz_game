@@ -589,6 +589,336 @@
                 "Alle genannten"
             ],
             "correct": 3
+        },
+        {
+            "id": 66,
+            "question": "In welchem Jahr begann der Zweite Weltkrieg?",
+            "answers": [
+                "1937",
+                "1938",
+                "1939",
+                "1940"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 67,
+            "question": "Wer war der erste Präsident der Vereinigten Staaten?",
+            "answers": [
+                "Thomas Jefferson",
+                "George Washington",
+                "John Adams",
+                "Benjamin Franklin"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 68,
+            "question": "Wann wurde die Berliner Mauer gebaut?",
+            "answers": [
+                "1959",
+                "1961",
+                "1963",
+                "1965"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 69,
+            "question": "Welches Land war nie Teil des Römischen Reiches?",
+            "answers": [
+                "Spanien",
+                "England",
+                "Deutschland",
+                "Irland"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 70,
+            "question": "Wer schrieb 'Das Kapital'?",
+            "answers": [
+                "Karl Marx",
+                "Friedrich Engels",
+                "Adam Smith",
+                "Max Weber"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 71,
+            "question": "In welchem Jahr endete der Vietnamkrieg?",
+            "answers": [
+                "1973",
+                "1975",
+                "1977",
+                "1979"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 72,
+            "question": "Welcher Kaiser teilte das Römische Reich?",
+            "answers": [
+                "Augustus",
+                "Trajan",
+                "Diocletian",
+                "Konstantin"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 73,
+            "question": "Wann wurde Indien unabhängig?",
+            "answers": [
+                "1945",
+                "1947",
+                "1949",
+                "1951"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 74,
+            "question": "Wer war der letzte Kaiser von China?",
+            "answers": [
+                "Puyi",
+                "Kangxi",
+                "Qianlong",
+                "Guangxu"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 75,
+            "question": "In welchem Jahr wurde Israel gegründet?",
+            "answers": [
+                "1946",
+                "1948",
+                "1950",
+                "1952"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 76,
+            "question": "Welcher Vertrag beendete den Ersten Weltkrieg?",
+            "answers": [
+                "Vertrag von Versailles",
+                "Vertrag von Trianon",
+                "Vertrag von Saint-Germain",
+                "Vertrag von Sèvres"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 77,
+            "question": "Wer war Kleopatra?",
+            "answers": [
+                "Griechische Königin",
+                "Römische Kaiserin",
+                "Ägyptische Königin",
+                "Persische Prinzessin"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 78,
+            "question": "Wann begann die Renaissance?",
+            "answers": [
+                "13. Jahrhundert",
+                "14. Jahrhundert",
+                "15. Jahrhundert",
+                "16. Jahrhundert"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 79,
+            "question": "Wann wurde die erste Mondlandung übertragen?",
+            "answers": [
+                "1968",
+                "1969",
+                "1970",
+                "1971"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 80,
+            "question": "Welches war das erste Land, das Frauen das Wahlrecht gab?",
+            "answers": [
+                "USA",
+                "Deutschland",
+                "Neuseeland",
+                "Schweiz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 81,
+            "question": "In welchem Jahr wurde die UNO gegründet?",
+            "answers": [
+                "1944",
+                "1945",
+                "1946",
+                "1947"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 82,
+            "question": "Wer war der erste römische Kaiser?",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Caligula"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 83,
+            "question": "Welche Revolution begann 1917 in Russland?",
+            "answers": [
+                "Februarrevolution",
+                "Oktoberrevolution",
+                "Beide",
+                "Dezemberrevolution"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 84,
+            "question": "Wann endete der Vietnamkrieg?",
+            "answers": [
+                "1973",
+                "1975",
+                "1976",
+                "1977"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 85,
+            "question": "Welches Ereignis löste den Ersten Weltkrieg aus?",
+            "answers": [
+                "Attentat von Sarajevo",
+                "Invasion Belgiens",
+                "Mobilmachung Russlands",
+                "Kriegserklärung Deutschlands"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 86,
+            "question": "Wer baute die erste Dampfmaschine?",
+            "answers": [
+                "James Watt",
+                "Thomas Newcomen",
+                "Robert Fulton",
+                "George Stephenson"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 87,
+            "question": "In welchem Jahr fiel die Berliner Mauer?",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 88,
+            "question": "Welches Imperium kontrollierte das antike Ägypten?",
+            "answers": [
+                "Römisches Reich",
+                "Byzantinisches Reich",
+                "Osmanisches Reich",
+                "Alle genannten"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 89,
+            "question": "Wann begann die Industrielle Revolution?",
+            "answers": [
+                "17. Jahrhundert",
+                "18. Jahrhundert",
+                "19. Jahrhundert",
+                "20. Jahrhundert"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 90,
+            "question": "Wer war der letzte Zar von Russland?",
+            "answers": [
+                "Alexander III.",
+                "Nikolaus II.",
+                "Alexander II.",
+                "Peter der Große"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 91,
+            "question": "In welchem Jahr wurde die UNO gegründet?",
+            "answers": [
+                "1943",
+                "1945",
+                "1947",
+                "1949"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 92,
+            "question": "Welcher Pharao ließ die Sphinx bauen?",
+            "answers": [
+                "Ramses II.",
+                "Tutanchamun",
+                "Cheops",
+                "Chephren"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 93,
+            "question": "Wann fand die Schlacht von Waterloo statt?",
+            "answers": [
+                "1813",
+                "1814",
+                "1815",
+                "1816"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 94,
+            "question": "Wer entdeckte das Penicillin?",
+            "answers": [
+                "Louis Pasteur",
+                "Alexander Fleming",
+                "Marie Curie",
+                "Robert Koch"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 95,
+            "question": "In welchem Jahr wurde das Internet erfunden?",
+            "answers": [
+                "1969",
+                "1975",
+                "1981",
+                "1989"
+            ],
+            "correct": 0
         }
     ]
 }

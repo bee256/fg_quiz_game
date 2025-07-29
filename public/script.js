@@ -12,9 +12,13 @@ class QuizGame {
         this.timeLeft = 0;
         this.timer = null;
         this.questionStartTime = null;
+        this.currentCategory = null;
+        this.username = localStorage.getItem('quizUsername') || 'Gast';
+        this.categories = [];
         
         this.initializeElements();
         this.bindEvents();
+        this.updateUsernameDisplay();
         this.showCategorySelection();
         this.loadCategories();
     }
@@ -39,6 +43,22 @@ class QuizGame {
         this.scoreDisplay = document.getElementById('score');
         this.questionCounter = document.getElementById('question-counter');
         
+        // User elements
+        this.currentUserDisplay = document.getElementById('current-user');
+        this.changeUsernameButton = document.getElementById('change-username');
+        this.viewHighscoresButton = document.getElementById('view-highscores');
+        
+        // Modals
+        this.usernameModal = document.getElementById('username-modal');
+        this.usernameInput = document.getElementById('username-input');
+        this.saveUsernameButton = document.getElementById('save-username');
+        this.cancelUsernameButton = document.getElementById('cancel-username');
+        
+        this.highscoreModal = document.getElementById('highscore-modal');
+        this.highscoreCategoriesContainer = document.querySelector('.highscore-categories');
+        this.highscoreList = document.querySelector('.highscore-list');
+        this.closeHighscoreButton = document.getElementById('close-highscore');
+        
         // Timer elements
         this.createTimerElements();
         
@@ -48,6 +68,8 @@ class QuizGame {
         this.percentageText = document.getElementById('percentage-text');
         this.restartButton = document.getElementById('restart-quiz');
         this.newCategoryButton = document.getElementById('new-category');
+        this.viewCategoryHighscoreButton = document.getElementById('view-category-highscore');
+        this.highscoreAchievement = document.getElementById('highscore-achievement');
         
         // Loading indicator
         this.createLoadingIndicator();
@@ -259,6 +281,7 @@ class QuizGame {
             if (!response.ok) throw new Error('Fehler beim Laden der Kategorien');
             
             const data = await response.json();
+            this.categories = data.categories; // Store categories for highscore use
             this.renderCategories(data.categories);
         } catch (error) {
             console.error('Fehler beim Laden der Kategorien:', error);
@@ -312,6 +335,29 @@ class QuizGame {
         this.backToCategoriesButton.addEventListener('click', () => this.endSession());
         this.restartButton.addEventListener('click', () => this.restartQuiz());
         this.newCategoryButton.addEventListener('click', () => this.endSession());
+        this.viewCategoryHighscoreButton.addEventListener('click', () => this.showHighscores(this.currentCategory));
+        
+        // User management
+        this.changeUsernameButton.addEventListener('click', () => this.showUsernameModal());
+        this.viewHighscoresButton.addEventListener('click', () => this.showHighscores());
+        
+        // Username modal
+        this.saveUsernameButton.addEventListener('click', () => this.saveUsername());
+        this.cancelUsernameButton.addEventListener('click', () => this.hideUsernameModal());
+        this.usernameInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') this.saveUsername();
+        });
+        
+        // Highscore modal
+        this.closeHighscoreButton.addEventListener('click', () => this.hideHighscoreModal());
+        
+        // Modal background clicks
+        this.usernameModal.addEventListener('click', (e) => {
+            if (e.target === this.usernameModal) this.hideUsernameModal();
+        });
+        this.highscoreModal.addEventListener('click', (e) => {
+            if (e.target === this.highscoreModal) this.hideHighscoreModal();
+        });
     }
     
     showScreen(screenElement) {
@@ -346,6 +392,7 @@ class QuizGame {
             this.timeLimit = data.timeLimit || 10;
             this.currentQuestionNumber = 0;
             this.score = 0;
+            this.currentCategory = category; // Store current category
             
             this.updateScore();
             this.updateQuestionCounter();
@@ -761,6 +808,14 @@ class QuizGame {
             // Erweiterte Statistiken anzeigen
             this.updateDetailedResults(result);
             
+            // Check and save highscore
+            const isNewHighscore = await this.saveHighscore(this.currentCategory, result.score, result.totalPossibleScore);
+            if (isNewHighscore && this.username !== 'Gast') {
+                this.highscoreAchievement.style.display = 'block';
+            } else {
+                this.highscoreAchievement.style.display = 'none';
+            }
+            
             // Update result message based on performance
             let message;
             if (result.scorePercentage >= 90) {
@@ -772,6 +827,12 @@ class QuizGame {
             } else {
                 message = "Nicht schlecht! Übung macht den Meister. 💪";
             }
+            
+            // Add username motivation if playing as guest
+            if (this.username === 'Gast') {
+                message += "\n\n💡 Tipp: Gib einen Benutzernamen ein, um in der Highscore-Liste zu erscheinen!";
+            }
+            
             this.resultMessage.textContent = message;
             
             // Update percentage circle
@@ -950,6 +1011,155 @@ class QuizGame {
     
     showError(message) {
         alert(message); // In einer Produktionsanwendung würde man ein schöneres Error-Modal verwenden
+    }
+    
+    // User Management Methods
+    updateUsernameDisplay() {
+        this.currentUserDisplay.textContent = this.username;
+    }
+    
+    showUsernameModal() {
+        this.usernameInput.value = this.username === 'Gast' ? '' : this.username;
+        this.usernameModal.style.display = 'block';
+        this.usernameInput.focus();
+    }
+    
+    hideUsernameModal() {
+        this.usernameModal.style.display = 'none';
+    }
+    
+    saveUsername() {
+        const newUsername = this.usernameInput.value.trim();
+        if (newUsername && newUsername.length <= 20) {
+            this.username = newUsername;
+            localStorage.setItem('quizUsername', this.username);
+            this.updateUsernameDisplay();
+            this.hideUsernameModal();
+        } else if (newUsername.length > 20) {
+            alert('Der Name darf maximal 20 Zeichen lang sein.');
+        } else {
+            this.username = 'Gast';
+            localStorage.removeItem('quizUsername');
+            this.updateUsernameDisplay();
+            this.hideUsernameModal();
+        }
+    }
+    
+    // Highscore Methods
+    async showHighscores(selectedCategory = null) {
+        this.highscoreModal.style.display = 'block';
+        this.renderHighscoreCategories(selectedCategory);
+        if (selectedCategory) {
+            await this.loadHighscores(selectedCategory);
+        } else if (this.categories.length > 0) {
+            await this.loadHighscores(this.categories[0].id);
+        }
+    }
+    
+    hideHighscoreModal() {
+        this.highscoreModal.style.display = 'none';
+    }
+    
+    renderHighscoreCategories(selectedCategory = null) {
+        this.highscoreCategoriesContainer.innerHTML = '';
+        
+        this.categories.forEach(category => {
+            const button = document.createElement('button');
+            button.className = 'category-tab';
+            button.textContent = `${category.icon} ${category.name}`;
+            button.dataset.category = category.id;
+            
+            if (selectedCategory === category.id || (!selectedCategory && category === this.categories[0])) {
+                button.classList.add('active');
+            }
+            
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.category-tab').forEach(tab => {
+                    tab.classList.remove('active');
+                });
+                button.classList.add('active');
+                this.loadHighscores(category.id);
+            });
+            
+            this.highscoreCategoriesContainer.appendChild(button);
+        });
+    }
+    
+    async loadHighscores(category) {
+        try {
+            const response = await fetch(`${this.baseURL}/api/highscores/${category}`);
+            if (!response.ok) throw new Error('Fehler beim Laden der Highscores');
+            
+            const data = await response.json();
+            this.renderHighscores(data.highscores || []);
+        } catch (error) {
+            console.error('Fehler beim Laden der Highscores:', error);
+            this.renderHighscores([]);
+        }
+    }
+    
+    renderHighscores(highscores) {
+        this.highscoreList.innerHTML = '';
+        
+        if (highscores.length === 0) {
+            this.highscoreList.innerHTML = `
+                <div class="no-highscores">
+                    Noch keine Highscores vorhanden.<br>
+                    Sei der Erste und spiele ein Quiz!
+                </div>
+            `;
+            return;
+        }
+        
+        highscores.forEach((score, index) => {
+            const item = document.createElement('div');
+            item.className = 'highscore-item';
+            
+            if (score.username === this.username) {
+                item.classList.add('current-user');
+            }
+            
+            let rank = index + 1;
+            let rankDisplay = rank;
+            if (rank === 1) rankDisplay = '🥇';
+            else if (rank === 2) rankDisplay = '🥈';
+            else if (rank === 3) rankDisplay = '🥉';
+            
+            item.innerHTML = `
+                <span class="highscore-rank">${rankDisplay}</span>
+                <span class="highscore-name">${score.username}</span>
+                <span class="highscore-score">${score.score}/${score.totalQuestions}</span>
+            `;
+            
+            this.highscoreList.appendChild(item);
+        });
+    }
+    
+    async saveHighscore(category, score, totalQuestions) {
+        if (this.username === 'Gast') return false;
+        
+        try {
+            const response = await fetch(`${this.baseURL}/api/highscores`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    username: this.username,
+                    category: category,
+                    score: score,
+                    totalQuestions: totalQuestions
+                })
+            });
+            
+            if (!response.ok) throw new Error('Fehler beim Speichern des Highscores');
+            
+            const data = await response.json();
+            return data.isNewHighscore;
+        } catch (error) {
+            console.error('Fehler beim Speichern des Highscores:', error);
+            return false;
+        }
     }
 }
 

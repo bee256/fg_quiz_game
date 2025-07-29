@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const { loadQuestions } = require('./questions-loader');
 
 const app = express();
@@ -14,6 +15,48 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Fragendatenbank aus JSON-Dateien laden
 console.log('🔄 Lade Fragendatenbank...');
 const { questions, categories } = loadQuestions();
+
+// Highscores-Datei Pfad
+const HIGHSCORES_FILE = path.join(__dirname, 'highscores.json');
+
+// Hilfsfunktionen für persistente Highscores
+function loadHighscores() {
+    try {
+        if (fs.existsSync(HIGHSCORES_FILE)) {
+            const data = fs.readFileSync(HIGHSCORES_FILE, 'utf8');
+            const parsed = JSON.parse(data);
+            const highscoresMap = new Map();
+            
+            // Konvertiere das Objekt zurück in eine Map
+            Object.keys(parsed).forEach(category => {
+                highscoresMap.set(category, parsed[category]);
+            });
+            
+            console.log('📊 Highscores aus Datei geladen');
+            return highscoresMap;
+        }
+    } catch (error) {
+        console.error('❌ Fehler beim Laden der Highscores:', error.message);
+    }
+    
+    console.log('📊 Neue Highscores-Datei wird erstellt');
+    return new Map();
+}
+
+function saveHighscores(highscoresMap) {
+    try {
+        // Konvertiere Map in ein Objekt für JSON-Serialisierung
+        const highscoresObj = {};
+        highscoresMap.forEach((value, key) => {
+            highscoresObj[key] = value;
+        });
+        
+        fs.writeFileSync(HIGHSCORES_FILE, JSON.stringify(highscoresObj, null, 2));
+        console.log('💾 Highscores gespeichert');
+    } catch (error) {
+        console.error('❌ Fehler beim Speichern der Highscores:', error.message);
+    }
+}
 
 // Aktive Quiz-Sessions (in Produktion würde das in einer Datenbank gespeichert)
 const activeSessions = new Map();
@@ -312,6 +355,94 @@ app.delete('/api/quiz/:sessionId', (req, res) => {
     }
 });
 
+// Highscore-System mit persistenter Speicherung
+const highscores = loadHighscores(); // Format: category -> Array of {username, score, totalQuestions, timestamp}
+
+// Highscores für eine Kategorie abrufen
+app.get('/api/highscores/:category', (req, res) => {
+    const { category } = req.params;
+    
+    if (!questions[category]) {
+        return res.status(400).json({ error: 'Ungültige Kategorie' });
+    }
+    
+    const categoryHighscores = highscores.get(category) || [];
+    
+    // Sortiere nach Score (absteigend), dann nach Datum (aufsteigend für ältere zuerst bei gleichem Score)
+    const sortedHighscores = categoryHighscores
+        .sort((a, b) => {
+            if (b.score !== a.score) {
+                return b.score - a.score; // Höhere Punkte zuerst
+            }
+            return a.timestamp - b.timestamp; // Bei gleichem Score: älterer Eintrag zuerst
+        })
+        .slice(0, 10); // Top 10
+    
+    res.json({ highscores: sortedHighscores });
+});
+
+// Neuen Highscore speichern
+app.post('/api/highscores', (req, res) => {
+    const { username, category, score, totalQuestions } = req.body;
+    
+    if (!username || !category || score === undefined || totalQuestions === undefined) {
+        return res.status(400).json({ error: 'Fehlende Parameter' });
+    }
+    
+    if (!questions[category]) {
+        return res.status(400).json({ error: 'Ungültige Kategorie' });
+    }
+    
+    if (username.length > 20) {
+        return res.status(400).json({ error: 'Benutzername zu lang' });
+    }
+    
+    // Initialisiere Array für Kategorie falls nicht vorhanden
+    if (!highscores.has(category)) {
+        highscores.set(category, []);
+    }
+    
+    const categoryHighscores = highscores.get(category);
+    
+    // Prüfe ob der Benutzer bereits einen Score für diese Kategorie hat
+    const existingScoreIndex = categoryHighscores.findIndex(entry => entry.username === username);
+    
+    let isNewHighscore = false;
+    
+    if (existingScoreIndex !== -1) {
+        // Benutzer hat bereits einen Score - aktualisiere nur wenn neuer Score besser ist
+        const existingScore = categoryHighscores[existingScoreIndex];
+        if (score > existingScore.score) {
+            categoryHighscores[existingScoreIndex] = {
+                username,
+                score,
+                totalQuestions,
+                timestamp: Date.now()
+            };
+            isNewHighscore = true;
+        }
+    } else {
+        // Neuer Benutzer für diese Kategorie
+        categoryHighscores.push({
+            username,
+            score,
+            totalQuestions,
+            timestamp: Date.now()
+        });
+        isNewHighscore = true;
+    }
+    
+    // Speichere Highscores in Datei, falls sich etwas geändert hat
+    if (isNewHighscore) {
+        saveHighscores(highscores);
+    }
+    
+    res.json({ 
+        message: 'Highscore gespeichert',
+        isNewHighscore
+    });
+});
+
 // Hilfsfunktion für Kategorie-Anzeigenamen
 function getCategoryDisplayName(categoryId) {
     const category = categories.find(cat => cat.id === categoryId);
@@ -327,4 +458,5 @@ app.get('/', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Quiz-Server läuft auf http://localhost:${PORT}`);
     console.log(`📁 Statische Dateien werden aus ./public serviert`);
+    console.log(`🏆 Highscore-System mit persistenter Speicherung aktiviert`);
 });

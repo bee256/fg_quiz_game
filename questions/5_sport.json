@@ -589,5 +589,446 @@
                 "Deutschland"
             ],
             "correct": 1
-        }    ]
+        },
+        {
+            "id": 90,
+            "question": "Wie viele Minuten dauert ein Eishockeyspiel (regulär)?",
+            "answers": [
+                "60",
+                "90",
+                "45",
+                "120"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 91,
+            "question": "Welcher Schwimmer hält die meisten olympischen Goldmedaillen?",
+            "answers": [
+                "Michael Phelps",
+                "Ian Thorpe",
+                "Mark Spitz",
+                "Kristin Otto"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 92,
+            "question": "Wie viele Spieler sind in einem Volleyballteam auf dem Feld?",
+            "answers": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 93,
+            "question": "Welcher deutsche Formel-1-Fahrer wurde siebenmal Weltmeister?",
+            "answers": [
+                "Sebastian Vettel",
+                "Michael Schumacher",
+                "Nico Rosberg",
+                "Ralf Schumacher"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 94,
+            "question": "Wie heißt das größte Radrennen der Welt?",
+            "answers": [
+                "Giro d'Italia",
+                "Tour de France",
+                "Vuelta a España",
+                "Paris-Roubaix"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 95,
+            "question": "Welcher Sportler ist als 'King of Clay' bekannt?",
+            "answers": [
+                "Roger Federer",
+                "Novak Djokovic",
+                "Rafael Nadal",
+                "Andy Murray"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 96,
+            "question": "Wie viele Disziplinen gibt es im Zehnkampf?",
+            "answers": [
+                "8",
+                "10",
+                "12",
+                "14"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 97,
+            "question": "Welcher Verein gewann die meisten Champions-League-Titel?",
+            "answers": [
+                "FC Barcelona",
+                "Manchester United",
+                "Real Madrid",
+                "Bayern München"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 98,
+            "question": "Wie viele Spieler sind bei einem Basketballteam auf dem Feld?",
+            "answers": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 99,
+            "question": "Welcher Sportler ist als 'Bolt' bekannt?",
+            "answers": [
+                "Mo Farah",
+                "Usain Bolt",
+                "Carl Lewis",
+                "Jesse Owens"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 100,
+            "question": "Wie viele Grand Slam Turniere gibt es im Tennis?",
+            "answers": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 101,
+            "question": "Welcher Fußballer wurde als 'Kaiser' bekannt?",
+            "answers": [
+                "Franz Beckenbauer",
+                "Gerd Müller",
+                "Lothar Matthäus",
+                "Oliver Kahn"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 102,
+            "question": "Wie viele Löcher hat ein regulärer Golfplatz?",
+            "answers": [
+                "9",
+                "12",
+                "18",
+                "24"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 103,
+            "question": "Welcher Boxer war als 'The Greatest' bekannt?",
+            "answers": [
+                "Mike Tyson",
+                "Muhammad Ali",
+                "Joe Frazier",
+                "George Foreman"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 104,
+            "question": "Wie viele Minuten dauert ein Handballspiel?",
+            "answers": [
+                "50",
+                "60",
+                "70",
+                "80"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 105,
+            "question": "Welcher deutsche Verein gewann 2020 das Champions-League-Finale?",
+            "answers": [
+                "Borussia Dortmund",
+                "RB Leipzig",
+                "Bayern München",
+                "VfL Wolfsburg"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 106,
+            "question": "Wie viele Spieler sind bei einem Rugbyteam auf dem Feld?",
+            "answers": [
+                "11",
+                "13",
+                "15",
+                "17"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 107,
+            "question": "Welcher Sport wird mit einem Shuttlecock gespielt?",
+            "answers": [
+                "Badminton",
+                "Squash",
+                "Tischtennis",
+                "Volleyball"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 108,
+            "question": "Wie viele Medaillen gewann Deutschland bei den Olympischen Spielen 2016?",
+            "answers": [
+                "17",
+                "42",
+                "44",
+                "56"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 109,
+            "question": "Welcher Sportler ist als 'Tiger' bekannt?",
+            "answers": [
+                "Tiger Woods",
+                "LeBron James",
+                "Cristiano Ronaldo",
+                "Roger Federer"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 110,
+            "question": "Welcher Fußballspieler erzielte die meisten Tore bei Weltmeisterschaften?",
+            "answers": [
+                "Miroslav Klose",
+                "Pelé",
+                "Ronaldo",
+                "Gerd Müller"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 111,
+            "question": "Wie viele Sätze muss man im Tennis bei den Grand Slams der Herren gewinnen?",
+            "answers": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 112,
+            "question": "Welcher deutsche Leichtathlet gewann Gold im Zehnkampf bei Olympia 2012?",
+            "answers": [
+                "Frank Busemann",
+                "Jürgen Hingsen",
+                "Uwe Hohn",
+                "Ashton Eaton"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 113,
+            "question": "Wie viele Spieler sind bei einem Eishockeyteam auf dem Eis?",
+            "answers": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 114,
+            "question": "Welcher Verein gewann die erste Bundesliga-Saison?",
+            "answers": [
+                "Bayern München",
+                "Borussia Dortmund",
+                "1. FC Köln",
+                "Werder Bremen"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 115,
+            "question": "Wie viele Minuten dauert ein Rugbyspiel?",
+            "answers": [
+                "60",
+                "70",
+                "80",
+                "90"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 116,
+            "question": "Welcher deutsche Schwimmer gewann 8 olympische Medaillen?",
+            "answers": [
+                "Kristin Otto",
+                "Franziska van Almsick",
+                "Michael Groß",
+                "Paul Biedermann"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 117,
+            "question": "Wie viele Bahnen hat ein olympisches Schwimmbecken?",
+            "answers": [
+                "6",
+                "8",
+                "10",
+                "12"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 118,
+            "question": "Welcher deutsche Handballverein gewann die meisten Meisterschaften?",
+            "answers": [
+                "THW Kiel",
+                "SG Flensburg-Handewitt",
+                "HSV Hamburg",
+                "Füchse Berlin"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 119,
+            "question": "Wie viele Spieler sind bei einem Baseballteam auf dem Feld?",
+            "answers": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 120,
+            "question": "Welcher deutsche Skispringer gewann viermal die Vierschanzentournee?",
+            "answers": [
+                "Sven Hannawald",
+                "Martin Schmitt",
+                "Jens Weißflog",
+                "Severin Freund"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 121,
+            "question": "Wie viele Minuten dauert ein Basketballspiel (NBA)?",
+            "answers": [
+                "40",
+                "48",
+                "50",
+                "60"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 122,
+            "question": "Welcher deutsche Radsportler gewann die Tour de France?",
+            "answers": [
+                "Jan Ullrich",
+                "Erik Zabel",
+                "Andreas Klöden",
+                "Tony Martin"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 123,
+            "question": "Wie viele Spieler sind bei einem Handballteam auf dem Feld?",
+            "answers": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 124,
+            "question": "Welcher deutsche Fußballer wurde Weltmeister als Spieler und Trainer?",
+            "answers": [
+                "Franz Beckenbauer",
+                "Jürgen Klinsmann",
+                "Lothar Matthäus",
+                "Oliver Bierhoff"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 125,
+            "question": "Wie viele Minuten dauert ein Volleyballspiel?",
+            "answers": [
+                "Es gibt keine feste Zeit",
+                "60",
+                "90",
+                "120"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 126,
+            "question": "Welcher deutsche Boxer war als 'König Otto' bekannt?",
+            "answers": [
+                "Max Schmeling",
+                "Henry Maske",
+                "Otto Wanz",
+                "Axel Schulz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 127,
+            "question": "Wie viele Spieler sind bei einem Wasserballteam im Wasser?",
+            "answers": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 128,
+            "question": "Welcher deutsche Fußballverein gewann 2013 das Champions-League-Finale?",
+            "answers": [
+                "Borussia Dortmund",
+                "Bayern München",
+                "Schalke 04",
+                "VfL Wolfsburg"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 129,
+            "question": "Wie viele Minuten dauert ein Fußballspiel (regulär)?",
+            "answers": [
+                "60",
+                "75",
+                "90",
+                "120"
+            ],
+            "correct": 2
+        }
+    ]
 }

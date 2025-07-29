@@ -589,5 +589,571 @@
                 "Weiß"
             ],
             "correct": 2
-        }    ]
+        },
+        {
+            "id": 78,
+            "question": "Welches Teilchen ist elektrisch negativ geladen?",
+            "answers": [
+                "Proton",
+                "Neutron",
+                "Elektron",
+                "Photon"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 79,
+            "question": "Was beschreibt die Newtonsche Gravitationstheorie?",
+            "answers": [
+                "Die Bewegung von Elektronen",
+                "Die Entstehung von Licht",
+                "Die Anziehung zwischen Massen",
+                "Die Photosynthese"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 80,
+            "question": "Welche Einheit misst den elektrischen Widerstand?",
+            "answers": [
+                "Watt",
+                "Volt",
+                "Ohm",
+                "Ampere"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 81,
+            "question": "Welcher Teil der Pflanze betreibt Photosynthese?",
+            "answers": [
+                "Wurzel",
+                "Stängel",
+                "Blatt",
+                "Blüte"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 82,
+            "question": "Wie viele Nieren hat ein gesunder Mensch normalerweise?",
+            "answers": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 83,
+            "question": "Wie viele Zähne hat ein erwachsener Mensch normalerweise?",
+            "answers": [
+                "28",
+                "30",
+                "32",
+                "34"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 84,
+            "question": "Welcher Planet hat die meisten bekannten Monde?",
+            "answers": [
+                "Jupiter",
+                "Mars",
+                "Saturn",
+                "Uranus"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 85,
+            "question": "Wie heißt die Zellorganelle, die als 'Kraftwerk der Zelle' bekannt ist?",
+            "answers": [
+                "Ribosom",
+                "Zellkern",
+                "Chloroplast",
+                "Mitochondrium"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 86,
+            "question": "Welche Farbe hat elementares Natrium bei Raumtemperatur?",
+            "answers": [
+                "Grau",
+                "Gelb",
+                "Silberweiß",
+                "Grünlich"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 87,
+            "question": "Was beschreibt das Ohmsche Gesetz?",
+            "answers": [
+                "Beziehung zwischen Spannung, Strom und Widerstand",
+                "Verhalten von Gasmolekülen",
+                "Entstehung von Magnetfeldern",
+                "Bewegung von Planeten"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 88,
+            "question": "Welche Struktur schützt das Gehirn vor Erschütterungen?",
+            "answers": [
+                "Schädel",
+                "Hirnhaut",
+                "Rückenmark",
+                "Lymphsystem"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 89,
+            "question": "Wie nennt man den Zustand, wenn Pflanzen ohne Sonnenlicht leben?",
+            "answers": [
+                "Photosynthese",
+                "Autotrophie",
+                "Heterotrophie",
+                "Chlorose"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 90,
+            "question": "Welche Teilchen befinden sich im Atomkern?",
+            "answers": [
+                "Elektronen",
+                "Protonen und Neutronen",
+                "Quarks",
+                "Photonen"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 91,
+            "question": "Welcher pH-Wert gilt als stark basisch?",
+            "answers": [
+                "3",
+                "7",
+                "9",
+                "13"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 92,
+            "question": "Welcher Teil des Auges reguliert die Lichtmenge?",
+            "answers": [
+                "Netzhaut",
+                "Iris",
+                "Linse",
+                "Hornhaut"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 93,
+            "question": "Welche Einheit wird zur Messung von Energie verwendet?",
+            "answers": [
+                "Joule",
+                "Newton",
+                "Watt",
+                "Volt"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 94,
+            "question": "Was ist ein Enzym?",
+            "answers": [
+                "Ein Zellkern",
+                "Ein Protein, das Reaktionen beschleunigt",
+                "Ein Vitamin",
+                "Ein Teil des Nervensystems"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 95,
+            "question": "Was verursacht Ebbe und Flut?",
+            "answers": [
+                "Sonne",
+                "Mond",
+                "Wind",
+                "Meeresströmungen"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 96,
+            "question": "Welches Organ ist für die Entgiftung im Körper zuständig?",
+            "answers": [
+                "Niere",
+                "Darm",
+                "Leber",
+                "Milz"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 97,
+            "question": "Welche Blutkörperchen bekämpfen Infektionen?",
+            "answers": [
+                "Rote",
+                "Weiße",
+                "Thrombozyten",
+                "Erythrozyten"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 98,
+            "question": "Welcher Stoffwechselvorgang erzeugt Energie in Zellen?",
+            "answers": [
+                "Photosynthese",
+                "Gärung",
+                "Zellatmung",
+                "Verdauung"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 99,
+            "question": "Welche Gase enthält Luft hauptsächlich?",
+            "answers": [
+                "Sauerstoff und Wasserstoff",
+                "Stickstoff und Sauerstoff",
+                "Stickstoff und CO2",
+                "CO2 und Sauerstoff"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 100,
+            "question": "Wie heißt die größte Drüse im menschlichen Körper?",
+            "answers": [
+                "Milz",
+                "Schilddrüse",
+                "Bauchspeicheldrüse",
+                "Leber"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 101,
+            "question": "Was ist die Funktion der roten Blutkörperchen?",
+            "answers": [
+                "Blutgerinnung",
+                "Infektionsabwehr",
+                "Sauerstofftransport",
+                "Zuckerabbau"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 102,
+            "question": "Was versteht man unter dem Begriff 'Halbwertszeit'?",
+            "answers": [
+                "Zeit bis zur Verdopplung einer Substanz",
+                "Zeit, bis ein Organ versagt",
+                "Zeit, in der die Hälfte eines radioaktiven Stoffes zerfällt",
+                "Zeit, in der Licht eine Strecke zurücklegt"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 103,
+            "question": "Welches Organ steuert den Hormonhaushalt des Körpers?",
+            "answers": [
+                "Schilddrüse",
+                "Hypophyse",
+                "Nebenniere",
+                "Leber"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 104,
+            "question": "Was misst ein Barometer?",
+            "answers": [
+                "Temperatur",
+                "Windgeschwindigkeit",
+                "Luftdruck",
+                "Luftfeuchtigkeit"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 105,
+            "question": "Welcher Planet ist der größte im Sonnensystem?",
+            "answers": [
+                "Saturn",
+                "Jupiter",
+                "Uranus",
+                "Neptun"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 106,
+            "question": "Welcher Blutbestandteil ist für die Blutgerinnung zuständig?",
+            "answers": [
+                "Plasma",
+                "Rote Blutkörperchen",
+                "Weiße Blutkörperchen",
+                "Blutplättchen"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 107,
+            "question": "Wie nennt man den Vorgang, bei dem eine Flüssigkeit zu Gas wird?",
+            "answers": [
+                "Kondensation",
+                "Sublimation",
+                "Verdampfung",
+                "Kristallisation"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 108,
+            "question": "Was beschreibt der Begriff 'Mutation' in der Genetik?",
+            "answers": [
+                "Zellteilung",
+                "Veränderung des Erbguts",
+                "Entstehung neuer Arten",
+                "Vervielfältigung von Proteinen"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 109,
+            "question": "Welche Struktur trennt das Gehirn von der Wirbelsäule?",
+            "answers": [
+                "Hirnstamm",
+                "Kleinhirn",
+                "Rückenmark",
+                "Hypothalamus"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 110,
+            "question": "Was ist ein Proton?",
+            "answers": [
+                "Ein negativ geladenes Teilchen",
+                "Ein elektrisch neutrales Teilchen",
+                "Ein positiv geladenes Teilchen",
+                "Ein Lichtteilchen"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 111,
+            "question": "Was ist ein Fossil?",
+            "answers": [
+                "Ein lebendes Tier",
+                "Ein versteinerter Überrest eines Lebewesens",
+                "Ein Stück Vulkanstein",
+                "Eine seltene Pflanze"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 112,
+            "question": "Welche Einheit wird für die Frequenz verwendet?",
+            "answers": [
+                "Hertz",
+                "Volt",
+                "Watt",
+                "Ohm"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 113,
+            "question": "Wie nennt man den Übergang vom gasförmigen in den flüssigen Zustand?",
+            "answers": ["Verdampfen", "Sublimieren", "Kondensieren", "Gefrieren"],
+            "correct": 2
+        },
+        {
+            "id": 114,
+            "question": "Welcher Teil der Pflanze transportiert Wasser von der Wurzel zu den Blättern?",
+            "answers": ["Phloem", "Xylem", "Chloroplast", "Epidermis"],
+            "correct": 1
+        },
+        {
+            "id": 115,
+            "question": "Wie viele Chromosomenpaare hat der Mensch?",
+            "answers": ["21", "22", "23", "24"],
+            "correct": 2
+        },
+        {
+            "id": 116,
+            "question": "Was ist die Hauptfunktion der weißen Blutkörperchen?",
+            "answers": ["Transport von Sauerstoff", "Blutgerinnung", "Abwehr von Krankheitserregern", "Hormonproduktion"],
+            "correct": 2
+        },
+        {
+            "id": 117,
+            "question": "Wie nennt man den zentralen Stern unseres Sonnensystems?",
+            "answers": ["Mond", "Sonne", "Jupiter", "Venus"],
+            "correct": 1
+        },
+        {
+            "id": 118,
+            "question": "Wie heißt der Aggregatzustand zwischen fest und gasförmig?",
+            "answers": ["Flüssig", "Plasma", "Sublimiert", "Es gibt keinen"],
+            "correct": 0
+        },
+        {
+            "id": 119,
+            "question": "Welche chemische Verbindung ist Hauptbestandteil von Kochsalz?",
+            "answers": ["NaCl", "KCl", "MgCl2", "CaCl2"],
+            "correct": 0
+        },
+        {
+            "id": 120,
+            "question": "Wie nennt man den Vorgang, bei dem Pflanzen Sonnenlicht in Energie umwandeln?",
+            "answers": ["Atmung", "Verdunstung", "Photosynthese", "Gärung"],
+            "correct": 2
+        },
+        {
+            "id": 121,
+            "question": "Was ist eine Galaxie?",
+            "answers": ["Ein einzelner Stern", "Eine Ansammlung von Planeten", "Ein großes Sternensystem", "Ein Komet"],
+            "correct": 2
+        },
+        {
+            "id": 122,
+            "question": "Wie lautet die chemische Formel für Kohlenstoffdioxid?",
+            "answers": ["CO", "CO2", "C2O", "C2O2"],
+            "correct": 1
+        },
+        {
+            "id": 123,
+            "question": "Was ist ein Neuron?",
+            "answers": ["Ein Muskel", "Eine Nervenzelle", "Ein Blutkörperchen", "Ein Knochen"],
+            "correct": 1
+        },
+        {
+            "id": 124,
+            "question": "Welche Farbe hat Chlorophyll?",
+            "answers": ["Rot", "Grün", "Gelb", "Blau"],
+            "correct": 1
+        },
+        {
+            "id": 125,
+            "question": "Welcher Stoff entsteht bei der Zellatmung als Abfallprodukt?",
+            "answers": ["Sauerstoff", "Kohlendioxid", "Stickstoff", "Wasserstoff"],
+            "correct": 1
+        },
+        {
+            "id": 126,
+            "question": "Was ist ein Isotop?",
+            "answers": ["Ein negativ geladenes Atom", "Ein Atom mit gleicher Protonenzahl, aber unterschiedlicher Neutronenzahl", "Ein Molekül", "Ein Ion"],
+            "correct": 1
+        },
+        {
+            "id": 127,
+            "question": "Welcher Teil der Erde ist flüssig?",
+            "answers": ["Erdkruste", "Erdmantel", "Äußerer Erdkern", "Innerer Erdkern"],
+            "correct": 2
+        },
+        {
+            "id": 128,
+            "question": "Wie nennt man die Bewegung von Platten auf der Erdoberfläche?",
+            "answers": ["Plattentektonik", "Erosion", "Sedimentation", "Vulkanismus"],
+            "correct": 0
+        },
+        {
+            "id": 129,
+            "question": "Welcher Wissenschaftler formulierte die Gesetze der Bewegung?",
+            "answers": ["Einstein", "Darwin", "Newton", "Bohr"],
+            "correct": 2
+        },
+        {
+            "id": 130,
+            "question": "Was ist eine Supernova?",
+            "answers": ["Ein neuer Planet", "Der Kollaps eines Sterns", "Ein Meteorit", "Eine Galaxie"],
+            "correct": 1
+        },
+        {
+            "id": 131,
+            "question": "Welcher Stoff transportiert Sauerstoff im Blut?",
+            "answers": ["Insulin", "Myosin", "Hämoglobin", "Keratin"],
+            "correct": 2
+        },
+        {
+            "id": 132,
+            "question": "Wie viele Beine hat ein Insekt?",
+            "answers": ["4", "6", "8", "10"],
+            "correct": 1
+        },
+        {
+            "id": 133,
+            "question": "Wie nennt man den Zustand eines Körpers ohne Gewichtseinfluss?",
+            "answers": ["Schwerelosigkeit", "Vakuum", "Drucklosigkeit", "Masselosigkeit"],
+            "correct": 0
+        },
+        {
+            "id": 134,
+            "question": "Welche Tierklasse legt Eier und hat Federn?",
+            "answers": ["Säugetiere", "Reptilien", "Fische", "Vögel"],
+            "correct": 3
+        },
+        {
+            "id": 135,
+            "question": "Wie heißt die Wissenschaft vom Verhalten der Stoffe bei Temperaturänderung?",
+            "answers": ["Mechanik", "Thermodynamik", "Optik", "Magnetismus"],
+            "correct": 1
+        },
+        {
+            "id": 136,
+            "question": "Welche Farbe hat Blut mit viel Sauerstoff?",
+            "answers": ["Dunkelrot", "Blau", "Hellrot", "Braun"],
+            "correct": 2
+        },
+        {
+            "id": 137,
+            "question": "Wie nennt man den Wechsel vom flüssigen in den festen Zustand?",
+            "answers": ["Verdampfen", "Gefrieren", "Kondensieren", "Schmelzen"],
+            "correct": 1
+        },
+        {
+            "id": 138,
+            "question": "Welche Blutgruppe gilt als Universalspender?",
+            "answers": ["A", "B", "AB", "0"],
+            "correct": 3
+        },
+        {
+            "id": 139,
+            "question": "Wie nennt man die kleinste Einheit des Lebens?",
+            "answers": ["Molekül", "Zelle", "Organ", "Atom"],
+            "correct": 1
+        },
+        {
+            "id": 140,
+            "question": "Was passiert bei einer endothermen Reaktion?",
+            "answers": ["Wärme wird frei", "Wärme wird aufgenommen", "Es entsteht Licht", "Es entsteht Bewegung"],
+            "correct": 1
+        },
+        {
+            "id": 141,
+            "question": "Was ist die Funktion der Lunge?",
+            "answers": ["Verdauung", "Blutfilterung", "Sauerstoffaufnahme", "Gleichgewichtssinn"],
+            "correct": 2
+        },
+        {
+            "id": 142,
+            "question": "Wie nennt man das Instrument zur Messung von Temperaturen?",
+            "answers": ["Barometer", "Thermometer", "Hygrometer", "Manometer"],
+            "correct": 1
+        }
+    ]
 }

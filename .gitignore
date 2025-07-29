@@ -4,6 +4,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Highscores data (optional - uncomment to exclude from version control)
+highscores.json
+
 # Runtime data
 pids
 *.pid

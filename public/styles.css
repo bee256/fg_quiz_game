@@ -36,9 +36,48 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-.score-display {
+.header-controls {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.user-info, .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info #current-user {
+    color: white;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.btn-small {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.3s ease;
+}
+
+.btn-small:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-1px);
+}
+
+.score-display {
+    display: flex;
+    gap: 15px;
     color: white;
     font-weight: bold;
     font-size: 1.1em;
@@ -392,6 +431,168 @@ main {
     }
 }
 
+/* Modals */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.modal-content.large {
+    max-width: 800px;
+}
+
+.modal-content h3 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content p {
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+#username-input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#username-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Highscore Modal */
+.highscore-categories {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category-tab {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9em;
+}
+
+.category-tab.active {
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+.category-tab:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.highscore-list {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.highscore-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.highscore-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+.highscore-item.current-user {
+    background: rgba(255, 215, 0, 0.3);
+    border: 2px solid rgba(255, 215, 0, 0.5);
+}
+
+.highscore-rank {
+    font-weight: bold;
+    margin-right: 15px;
+    min-width: 30px;
+}
+
+.highscore-name {
+    flex: 1;
+    text-align: left;
+}
+
+.highscore-score {
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.no-highscores {
+    text-align: center;
+    opacity: 0.7;
+    font-style: italic;
+    padding: 40px;
+}
+
+/* Achievement */
+.achievement {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+    animation: achievementPulse 2s ease-in-out;
+}
+
+@keyframes achievementPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
 @media (max-width: 480px) {
     .container {
         padding: 8px;
@@ -404,6 +605,31 @@ main {
     
     header {
         padding: 8px;
+    }
+    
+    .header-controls {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .score-display {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    
+    .modal-content {
+        margin: 5% auto;
+        padding: 20px;
+    }
+    
+    .modal-buttons {
+        flex-direction: column;
+    }
+    
+    .highscore-categories {
+        flex-direction: column;
+        align-items: center;
     }
     
     header h1 {
