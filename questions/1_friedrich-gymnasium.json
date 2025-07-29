@@ -88,10 +88,10 @@
         "id": 8,
         "question": "Wie viele Schüler besuchen etwa das Friedrich-Gymnasium?",
         "answers": [
+            "Etwa 250",
             "Etwa 500",
             "Etwa 800",
-            "Etwa 1200",
-            "Etwa 1500"
+            "Etwa 1200"
         ],
         "correct": 2
     },
