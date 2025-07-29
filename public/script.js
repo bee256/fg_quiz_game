@@ -59,6 +59,19 @@ class QuizGame {
         this.highscoreList = document.querySelector('.highscore-list');
         this.closeHighscoreButton = document.getElementById('close-highscore');
         
+        // Info modals
+        this.aboutModal = document.getElementById('about-modal');
+        this.helpModal = document.getElementById('help-modal');
+        this.privacyModal = document.getElementById('privacy-modal');
+        this.closeAboutButton = document.getElementById('close-about');
+        this.closeHelpButton = document.getElementById('close-help');
+        this.closePrivacyButton = document.getElementById('close-privacy');
+        
+        // Footer links
+        this.showAboutButton = document.getElementById('show-about');
+        this.showHelpButton = document.getElementById('show-help');
+        this.showPrivacyButton = document.getElementById('show-privacy');
+        
         // Timer elements
         this.createTimerElements();
         
@@ -351,6 +364,14 @@ class QuizGame {
         // Highscore modal
         this.closeHighscoreButton.addEventListener('click', () => this.hideHighscoreModal());
         
+        // Info modals
+        if (this.showAboutButton) this.showAboutButton.addEventListener('click', () => this.showAboutModal());
+        if (this.showHelpButton) this.showHelpButton.addEventListener('click', () => this.showHelpModal());
+        if (this.showPrivacyButton) this.showPrivacyButton.addEventListener('click', () => this.showPrivacyModal());
+        if (this.closeAboutButton) this.closeAboutButton.addEventListener('click', () => this.hideAboutModal());
+        if (this.closeHelpButton) this.closeHelpButton.addEventListener('click', () => this.hideHelpModal());
+        if (this.closePrivacyButton) this.closePrivacyButton.addEventListener('click', () => this.hidePrivacyModal());
+        
         // Modal background clicks
         this.usernameModal.addEventListener('click', (e) => {
             if (e.target === this.usernameModal) this.hideUsernameModal();
@@ -358,6 +379,21 @@ class QuizGame {
         this.highscoreModal.addEventListener('click', (e) => {
             if (e.target === this.highscoreModal) this.hideHighscoreModal();
         });
+        if (this.aboutModal) {
+            this.aboutModal.addEventListener('click', (e) => {
+                if (e.target === this.aboutModal) this.hideAboutModal();
+            });
+        }
+        if (this.helpModal) {
+            this.helpModal.addEventListener('click', (e) => {
+                if (e.target === this.helpModal) this.hideHelpModal();
+            });
+        }
+        if (this.privacyModal) {
+            this.privacyModal.addEventListener('click', (e) => {
+                if (e.target === this.privacyModal) this.hidePrivacyModal();
+            });
+        }
     }
     
     showScreen(screenElement) {
@@ -1058,6 +1094,43 @@ class QuizGame {
     
     hideHighscoreModal() {
         this.highscoreModal.style.display = 'none';
+    }
+    
+    // Info Modal Methods
+    showAboutModal() {
+        if (this.aboutModal) {
+            this.aboutModal.style.display = 'block';
+        }
+    }
+    
+    hideAboutModal() {
+        if (this.aboutModal) {
+            this.aboutModal.style.display = 'none';
+        }
+    }
+    
+    showHelpModal() {
+        if (this.helpModal) {
+            this.helpModal.style.display = 'block';
+        }
+    }
+    
+    hideHelpModal() {
+        if (this.helpModal) {
+            this.helpModal.style.display = 'none';
+        }
+    }
+    
+    showPrivacyModal() {
+        if (this.privacyModal) {
+            this.privacyModal.style.display = 'block';
+        }
+    }
+    
+    hidePrivacyModal() {
+        if (this.privacyModal) {
+            this.privacyModal.style.display = 'none';
+        }
     }
     
     renderHighscoreCategories(selectedCategory = null) {

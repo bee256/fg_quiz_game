@@ -55,12 +55,161 @@
                 </div>
             </div>
 
+            <!-- About Modal -->
+            <div id="about-modal" class="modal">
+                <div class="modal-content large">
+                    <h3>📚 Über das FG Projekt Quiz</h3>
+                    <div class="about-content">
+                        <section>
+                            <h4>🎯 Was ist das FG Quiz?</h4>
+                            <p>Das FG Projekt Quiz entstand im Rahmen eines Schulprojekts am Friedrich-Gymnasium Freiburg. Ziel war es, Wissen rund um Softwareentwicklung auf spielerische und unterhaltsame Weise zu vermitteln.
+                                Besonderes Augenmerk lag auf dem Einsatz künstlicher Intelligenz und moderner Webtechnologien. Zudem standen praxisnahe Aspekte im Vordergrund – etwa wie man eine solche Anwendung erfolgreich in der Cloud betreibt.</p>
+                            </p>
+                        </section>
+                        
+                        <section>
+                            <h4>🌟 Features</h4>
+                            <ul>
+                                <li><strong>7 Kategorien:</strong> Von Allgemeinwissen bis Sport</li>
+                                <li><strong>Über 500 Fragen:</strong> Ständig wachsende Fragendatenbank</li>
+                                <li><strong>Highscore-System:</strong> Vergleiche dich mit anderen</li>
+                                <li><strong>Mobile-optimiert:</strong> Spiele überall und jederzeit</li>
+                                <li><strong>Randomisierte Fragen:</strong> Jedes Quiz ist einzigartig</li>
+                            </ul>
+                        </section>
+                        
+                        <section>
+                            <h4>Leitung des Projekts</h4>
+                            <p>Bernd Engist</p>
+                        </section>
+                    </div>
+                    <div class="modal-buttons">
+                        <button id="close-about" class="control-btn">Schließen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Help Modal -->
+            <div id="help-modal" class="modal">
+                <div class="modal-content large">
+                    <h3>❓ Hilfe & Spielanleitung</h3>
+                    <div class="help-content">
+                        <section>
+                            <h4>🎮 Wie spiele ich?</h4>
+                            <ol>
+                                <li><strong>Kategorie wählen:</strong> Klicke auf eine der verfügbaren Wissensbereiche</li>
+                                <li><strong>Namen eingeben:</strong> Optional einen Benutzernamen für die Highscore-Liste</li>
+                                <li><strong>Fragen beantworten:</strong> 12 zufällige Fragen aus der gewählten Kategorie</li>
+                                <li><strong>Ergebnis sehen:</strong> Deine Punktzahl und Platzierung</li>
+                            </ol>
+                        </section>
+                        
+                        <section>
+                            <h4>🏆 Highscore-System</h4>
+                            <ul>
+                                <li>Jede Kategorie hat eine eigene Bestenliste</li>
+                                <li>Nur dein bester Score pro Kategorie wird gespeichert</li>
+                                <li>Top 10 Spieler werden angezeigt</li>
+                                <li>Bei Gastspielen wird kein Score gespeichert</li>
+                            </ul>
+                        </section>
+                        
+                        <section>
+                            <h4>💡 Tipps</h4>
+                            <ul>
+                                <li>Nimm dir Zeit beim Lesen der Fragen</li>
+                                <li>Alle Antworten sind eindeutig</li>
+                                <li>Bei Unsicherheit: Eliminiere offensichtlich falsche Antworten</li>
+                                <li>Übung macht den Meister - spiele regelmäßig!</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="modal-buttons">
+                        <button id="close-help" class="control-btn">Schließen</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Privacy Modal -->
+            <div id="privacy-modal" class="modal">
+                <div class="modal-content large">
+                    <h3>🔒 Datenschutz & Privatsphäre</h3>
+                    <div class="privacy-content">
+                        <section>
+                            <h4>📊 Welche Daten sammeln wir?</h4>
+                            <ul>
+                                <li><strong>Benutzername:</strong> Nur wenn freiwillig eingegeben</li>
+                                <li><strong>Spielergebnisse:</strong> Score pro Kategorie</li>
+                                <li><strong>Technische Daten:</strong> Keine persönlichen Informationen</li>
+                            </ul>
+                        </section>
+                        
+                        <section>
+                            <h4>💾 Datenspeicherung</h4>
+                            <ul>
+                                <li>Benutzername wird lokal im Browser gespeichert</li>
+                                <li>Highscores werden auf dem Server gespeichert</li>
+                                <li>Keine E-Mail-Adressen oder persönliche Daten erforderlich</li>
+                                <li>Daten werden nicht an Dritte weitergegeben</li>
+                            </ul>
+                        </section>
+                        
+                        <section>
+                            <h4>🗑️ Daten löschen</h4>
+                            <p>Du kannst jederzeit deinen lokalen Benutzernamen löschen, indem du im Browser die Webseitendaten löschst oder einen leeren Namen eingibst.</p>
+                        </section>
+                        
+                        <section>
+                            <h4>📞 Kontakt</h4>
+                            <p>Bei Fragen zum Datenschutz wende dich an den Leiter des Projekts, Bernd Engist.</p>
+                        </section>
+                    </div>
+                    <div class="modal-buttons">
+                        <button id="close-privacy" class="control-btn">Schließen</button>
+                    </div>
+                </div>
+            </div>
+
             <!-- Kategorie-Auswahl -->
             <div id="category-selection" class="screen active">
                 <h2>Wähle dein Wissensgebiet</h2>
                 <div class="category-grid">
                     <!-- Kategorien werden dynamisch geladen -->
                 </div>
+                
+                <!-- Footer nur auf Kategorieseite -->
+                <footer class="category-footer">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>📚 Über das Quiz</h3>
+                            <p>Teste dein Wissen in verschiedenen Bereichen! Von Allgemeinwissen über Sport bis hin zu Geschichte - hier findest du spannende Fragen für jeden Geschmack.</p>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h3>ℹ️ Informationen</h3>
+                            <ul>
+                                <li>🎯 Über 500 Fragen in 7 Kategorien</li>
+                                <li>🏆 Persönliche Highscore-Listen</li>
+                                <li>📱 Optimiert für alle Geräte</li>
+                                <li>⚡ Schnelle Quizrunden (12 Fragen)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h3>🔗 Links</h3>
+                            <div class="footer-links">
+                                <button id="show-about" class="footer-link">Über uns</button>
+                                <button id="show-help" class="footer-link">Hilfe</button>
+                                <button id="show-privacy" class="footer-link">Datenschutz</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 FG Software Projekt</p>
+                        <p class="version">Version 1.0 - Made with ❤️</p>
+                    </div>
+                </footer>
             </div>
 
             <!-- Quiz-Bereich -->

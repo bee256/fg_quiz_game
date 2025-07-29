@@ -129,15 +129,37 @@
         "correct": 1
     },
     {
-            "id": 12,
-            "question": "Das Friedrich-Gymnasium bietet welche Abschlüsse an?",
-            "answers": [
-                "Nur Abitur",
-                "Abitur und Realschulabschluss",
-                "Hauptschul- und Realschulabschluss",
-                "Alle Schulabschlüsse"
-            ],
-            "correct": 1
-        }
+        "id": 12,
+        "question": "Das Friedrich-Gymnasium bietet welche Abschlüsse an?",
+        "answers": [
+            "Nur Abitur",
+            "Abitur und Realschulabschluss",
+            "Hauptschul- und Realschulabschluss",
+            "Alle Schulabschlüsse"
+        ],
+        "correct": 1
+    },
+    {
+        "id": 13,
+        "question": "Wer ist der aktuelle Schulleiter des Friedrich Gymnasiums?",
+        "answers": [
+            "Herr Gönnheimer",
+            "Frau Schmidt",
+            "Herr Becker",
+            "Frau Schneider"
+        ],
+        "correct": 0
+    },
+    {
+        "id": 14,
+        "question": "Wer ist der aktuelle stellvertretende Schulleiter des Friedrich Gymnasiums?",
+        "answers": [
+            "Herr Drechsler",
+            "Frau Baier",
+            "Herr Furrer",
+            "Frau Franke"
+        ],
+        "correct": 0
+    }
     ]
 }
