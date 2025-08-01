@@ -18,6 +18,12 @@ const { questions, categories } = loadQuestions();
 
 // Highscores-Datei Pfad
 const HIGHSCORES_FILE = path.join(__dirname, 'highscores.json');
+const LOG_DIR = path.join(__dirname, 'log');
+
+// Log-Verzeichnis erstellen falls es nicht existiert
+if (!fs.existsSync(LOG_DIR)) {
+    fs.mkdirSync(LOG_DIR, { recursive: true });
+}
 
 // Hilfsfunktionen für persistente Highscores
 function loadHighscores() {
@@ -55,6 +61,48 @@ function saveHighscores(highscoresMap) {
         console.log('💾 Highscores gespeichert');
     } catch (error) {
         console.error('❌ Fehler beim Speichern der Highscores:', error.message);
+    }
+}
+
+// Hilfsfunktionen für Game Logging
+function getMonthlyLogFile() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const filename = `game-${year}-${month}.log`;
+    return path.join(LOG_DIR, filename);
+}
+
+function logGame(username, category, duration, score, totalQuestions, userAgent) {
+    try {
+        const timestamp = new Date().toISOString();
+        
+        // Extrahiere Geräte-Information aus User-Agent (ohne IP)
+        let device = 'Unknown';
+        if (userAgent) {
+            if (userAgent.includes('Mobile') || userAgent.includes('Android') || userAgent.includes('iPhone')) {
+                device = 'Mobile';
+            } else if (userAgent.includes('Tablet') || userAgent.includes('iPad')) {
+                device = 'Tablet';
+            } else {
+                device = 'Desktop';
+            }
+        }
+        
+        // Bereinige User-Agent (entferne Tabs und Newlines für Log-Format)
+        const cleanUserAgent = userAgent ? userAgent.replace(/[\t\n\r]/g, ' ').trim() : 'Unknown';
+        
+        // Format: timestamp, username, category, duration, score, total, device, userAgent
+        const logEntry = `${timestamp}\t${username || 'Gast'}\t${category}\t${duration}s\t${score}\t${totalQuestions}\t${device}\t${cleanUserAgent}\n`;
+        
+        // Ermittle monatliche Log-Datei
+        const monthlyLogFile = getMonthlyLogFile();
+        
+        // Append to log file
+        fs.appendFileSync(monthlyLogFile, logEntry);
+        console.log(`📝 Spiel geloggt: ${username || 'Gast'} - ${category} - ${score}/${totalQuestions}`);
+    } catch (error) {
+        console.error('❌ Fehler beim Loggen des Spiels:', error.message);
     }
 }
 
@@ -383,7 +431,7 @@ app.get('/api/highscores/:category', (req, res) => {
 
 // Neuen Highscore speichern
 app.post('/api/highscores', (req, res) => {
-    const { username, category, score, totalQuestions } = req.body;
+    const { username, category, score, totalQuestions, sessionId } = req.body;
     
     if (!username || !category || score === undefined || totalQuestions === undefined) {
         return res.status(400).json({ error: 'Fehlende Parameter' });
@@ -396,6 +444,17 @@ app.post('/api/highscores', (req, res) => {
     if (username.length > 20) {
         return res.status(400).json({ error: 'Benutzername zu lang' });
     }
+    
+    // Berechne Spieldauer falls sessionId vorhanden
+    let gameDuration = 0;
+    if (sessionId && activeSessions.has(sessionId)) {
+        const session = activeSessions.get(sessionId);
+        gameDuration = Math.round((Date.now() - session.startTime) / 1000); // in Sekunden
+    }
+    
+    // Logge das abgeschlossene Spiel
+    const userAgent = req.headers['user-agent'];
+    logGame(username, category, gameDuration, score, totalQuestions, userAgent);
     
     // Initialisiere Array für Kategorie falls nicht vorhanden
     if (!highscores.has(category)) {
@@ -441,6 +500,32 @@ app.post('/api/highscores', (req, res) => {
         message: 'Highscore gespeichert',
         isNewHighscore
     });
+});
+
+// Spiel-Log Endpoint für alle Spiele (auch Gäste)
+app.post('/api/game-log', (req, res) => {
+    const { username, category, score, totalQuestions, sessionId } = req.body;
+    
+    if (!category || score === undefined || totalQuestions === undefined) {
+        return res.status(400).json({ error: 'Fehlende Parameter' });
+    }
+    
+    if (!questions[category]) {
+        return res.status(400).json({ error: 'Ungültige Kategorie' });
+    }
+    
+    // Berechne Spieldauer falls sessionId vorhanden
+    let gameDuration = 0;
+    if (sessionId && activeSessions.has(sessionId)) {
+        const session = activeSessions.get(sessionId);
+        gameDuration = Math.round((Date.now() - session.startTime) / 1000); // in Sekunden
+    }
+    
+    // Logge das abgeschlossene Spiel
+    const userAgent = req.headers['user-agent'];
+    logGame(username, category, gameDuration, score, totalQuestions, userAgent);
+    
+    res.json({ message: 'Spiel geloggt' });
 });
 
 // Hilfsfunktion für Kategorie-Anzeigenamen

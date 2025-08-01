@@ -1199,10 +1199,41 @@ class QuizGame {
     }
     
     async saveHighscore(category, score, totalQuestions) {
-        if (this.username === 'Gast') return false;
-        
+        // Speichere Highscore für registrierte User (mit Logging im Server)
+        if (this.username !== 'Gast') {
+            try {
+                const response = await fetch(`${this.baseURL}/api/highscores`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        username: this.username,
+                        category: category,
+                        score: score,
+                        totalQuestions: totalQuestions,
+                        sessionId: this.sessionId
+                    })
+                });
+                
+                if (!response.ok) throw new Error('Fehler beim Speichern des Highscores');
+                
+                const data = await response.json();
+                return data.isNewHighscore;
+            } catch (error) {
+                console.error('Fehler beim Speichern des Highscores:', error);
+                return false;
+            }
+        } else {
+            // Für Gäste nur das Spiel loggen (kein Highscore)
+            await this.logGame(category, score, totalQuestions);
+            return false;
+        }
+    }
+    
+    async logGame(category, score, totalQuestions) {
         try {
-            const response = await fetch(`${this.baseURL}/api/highscores`, {
+            const response = await fetch(`${this.baseURL}/api/game-log`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -1211,17 +1242,14 @@ class QuizGame {
                     username: this.username,
                     category: category,
                     score: score,
-                    totalQuestions: totalQuestions
+                    totalQuestions: totalQuestions,
+                    sessionId: this.sessionId
                 })
             });
             
-            if (!response.ok) throw new Error('Fehler beim Speichern des Highscores');
-            
-            const data = await response.json();
-            return data.isNewHighscore;
+            if (!response.ok) throw new Error('Fehler beim Loggen des Spiels');
         } catch (error) {
-            console.error('Fehler beim Speichern des Highscores:', error);
-            return false;
+            console.error('Fehler beim Loggen des Spiels:', error);
         }
     }
 }
