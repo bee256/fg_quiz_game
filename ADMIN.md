@@ -98,7 +98,8 @@ Das Admin Interface ist vollständig responsive und funktioniert auf:
 ## Troubleshooting
 
 ### Passwort vergessen
-Das Standard-Passwort ist `admin123`. In Produktionsumgebungen kann es über Environment-Variablen geändert werden.
+Das Standard-Passwort ist `admin123`. In Produktionsumgebungen kann es über die Environment-Variable `ADMIN_PASSWORD` geändert werden.
+Siehe dazu die Datei `fg-quiz.service`.
 
 ### Keine Log-Daten sichtbar
 1. Überprüfen Sie, ob Log-Dateien im `log/`-Verzeichnis vorhanden sind

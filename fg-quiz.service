@@ -12,6 +12,7 @@ Restart=on-failure
 RestartSec=10
 Environment=NODE_ENV=production
 Environment=PORT=3000
+Environment=ADMIN_PASSWORD=
 
 # Security settings
 NoNewPrivileges=true

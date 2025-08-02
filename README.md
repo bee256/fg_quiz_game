@@ -1,11 +1,16 @@
 # 🎯 Quiz Spiel - Friedrich-Gymnasium Edition
 
-Ein umfassendes interaktives Quizspiel mit über 1.200 Fragen in 7 Kategorien, entwickelt mit moderner Server/Client-Architektur.
+Ein umfassendes interaktives Quizspiel mit über 682 Fragen in 7 Kategorien, entwickelt mit moderner Server/Client-Architektur.
+Das Projekt wurde komplett mit AI Tools entwickelt, es wurde keine Codezeile selbst geschrieben. Verwendet wurde GitHub Copilot
+im Agent Mode und Claude Sonnet 4 als LLM. Die Fragen wurden teilweise per ChatGPT erzeugt und ein paar Fragen auch manuell
+hinzugefügt.
+
+Das Spiel ist derzeit (Sommer 2025) unter [quiz.fgpro.de](https://quiz.fgpro.de) gehostet.
 
 ## ✨ Features
 
 - 🏫 **Friedrich-Gymnasium Kategorie** - Spezielle Fragen zur Schule
-- 🧠 **6 Wissenskategorien** mit je 200 Fragen:
+- 🧠 **6 Wissenskategorien**
   - Allgemeinwissen
   - Geschichte  
   - Wissenschaft
@@ -16,6 +21,7 @@ Ein umfassendes interaktives Quizspiel mit über 1.200 Fragen in 7 Kategorien, e
 - 🎲 **Zufällige Fragenauswahl** - 12 Fragen pro Quiz
 - 📱 **Responsive Design** - Funktioniert auf allen Geräten
 - 🔄 **Modular erweiterbar** - Einfaches Hinzufügen neuer Kategorien
+- 🔄 **Admin Interface** - Einfaches Admin Interface zum Anschauen und runterladen der Game Logs
 
 ## 🏗️ Architektur
 
@@ -43,7 +49,7 @@ Ein umfassendes interaktives Quizspiel mit über 1.200 Fragen in 7 Kategorien, e
 ```bash
 # Repository klonen
 git clone [REPOSITORY_URL]
-cd copilot-vanilla-js2
+cd [REPO_DIR]]
 
 # Dependencies installieren
 npm install
@@ -153,6 +159,76 @@ Gibt das finale Quiz-Ergebnis zurück.
 ### `DELETE /api/quiz/:sessionId`
 Beendet eine Quiz-Session.
 
+## 🔐 Admin Interface
+
+Das Admin Interface ist unter `/admin` verfügbar und bietet folgende Funktionen:
+
+### Zugriff
+- **URL:** http://localhost:3000/admin
+- **Passwort:** `admin123` (konfigurierbar über `ADMIN_PASSWORD`)
+
+### Admin API Endpunkte
+
+#### `POST /admin/login`
+Anmeldung am Admin Interface.
+
+**Request:**
+```json
+{"password": "admin123"}
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "token": "abc123xyz..."
+}
+```
+
+#### `GET /admin/months`
+Gibt alle verfügbaren Log-Monate zurück.
+
+**Headers:** `Authorization: Bearer <token>`
+
+**Response:**
+```json
+{
+  "months": ["2025-08", "2025-07", "2025-06"]
+}
+```
+
+#### `GET /admin/logs/:month`
+Gibt die Log-Daten für einen bestimmten Monat zurück.
+
+**Headers:** `Authorization: Bearer <token>`
+
+**Response:**
+```json
+{
+  "logs": [
+    {
+      "timestamp": "2025-08-01T12:30:45.123Z",
+      "username": "TestUser",
+      "category": "allgemeinwissen",
+      "duration": "127s",
+      "score": 10,
+      "total": 12,
+      "device": "Desktop",
+      "userAgent": "Mozilla/5.0..."
+    }
+  ]
+}
+```
+
+### Admin Features
+- 📊 **Monatliche Statistiken** - Spiele, Erfolgsquote, Durchschnittsdauer
+- 📋 **Log-Übersicht** - Tabellarische Darstellung aller Spiele
+- 💾 **CSV-Export** - Download der Log-Daten für weitere Analysen
+- 🔐 **Passwort-Schutz** - Token-basierte Authentifizierung
+- 📱 **Responsive Design** - Funktioniert auf allen Geräten
+
+Weitere Details finden Sie in der [ADMIN.md](ADMIN.md) Dokumentation.
+
 ## 🎮 Features
 
 - **6 verschiedene Kategorien**: Allgemeinwissen, Geschichte, Wissenschaft, Sport, Geografie, Kunst & Kultur
@@ -167,22 +243,28 @@ Beendet eine Quiz-Session.
 
 ```
 quiz-game/
-├── server.js                    # Express Server mit API
-├── questions-loader.js          # Modulares Fragen-Ladesystem  
-├── package.json                # Node.js Dependencies
-├── public/                     # Client-seitige Dateien
-│   ├── index.html             # HTML Interface
-│   ├── styles.css             # CSS Styles
-│   └── script.js              # Client JavaScript (QuizGame Klasse)
-├── questions/                  # Fragendatenbank (JSON Files)
-│   ├── 1_friedrich-gymnasium.json  # 12 Fragen zur Schule
-│   ├── 2_allgemeinwissen.json      # 200 Allgemeinwissen-Fragen
-│   ├── 3_geschichte.json           # 200 Geschichte-Fragen
-│   ├── 4_wissenschaft.json         # 200 Wissenschaft-Fragen
-│   ├── 5_sport.json               # 200 Sport-Fragen
-│   ├── 6_geografie.json           # 200 Geografie-Fragen
-│   └── 7_kunst.json               # 200 Kunst & Kultur-Fragen
-└── README.md                   # Diese Dokumentation
+├── server.js                         # Express Server mit API
+├── questions-loader.js               # Modulares Fragen-Ladesystem  
+├── package.json                      # Node.js Dependencies
+├── LOGGING.md                        # Dokumentation des Logging-Systems
+├── ADMIN.md                          # Dokumentation des Admin Interfaces
+├── public/                           # Client-seitige Dateien
+│   ├── index.html                    # HTML Interface
+│   ├── styles.css                    # CSS Styles
+│   ├── script.js                     # Client JavaScript (QuizGame Klasse)
+│   └── admin.html                    # Admin Interface HTML
+├── questions/                        # Fragendatenbank (JSON Files)
+│   ├── 1_friedrich-gymnasium.json    # Fragen zur Schule
+│   ├── 2_allgemeinwissen.json        # Allgemeinwissen-Fragen
+│   ├── 3_geschichte.json             # Geschichte-Fragen
+│   ├── 4_wissenschaft.json           # Wissenschaft-Fragen
+│   ├── 5_sport.json                  # Sport-Fragen
+│   ├── 6_geografie.json              # Geografie-Fragen
+│   └── 7_kunst.json                  # Kunst & Kultur-Fragen
+├── log/                              # Game Logging Verzeichnis
+│   ├── game-YYYY-MM.log              # Monatliche Log-Dateien
+│   └── game.log.example              # Beispiel-Log-Datei
+└── README.md                         # Diese Dokumentation
 ```
 
 ## 🗂️ Fragenverwaltung
@@ -238,7 +320,8 @@ Jede Kategorie-Datei folgt diesem Schema:
 
 ### Umgebungsvariablen
 ```bash
-PORT=3000  # Server Port
+PORT=3000                    # Server Port
+ADMIN_PASSWORD=admin123      # Admin Interface Passwort (Standard: admin123)
 ```
 
 ### Docker (optional)
@@ -293,32 +376,9 @@ Das Projekt enthält Hilfsskripte für die Fragenerweiterung:
 - 📈 **Statistiken** - Detaillierte Spieler-Analytics
 - 🔊 **Audio-Features** - Sounds und Sprachausgabe
 
-## 🤝 Beitragen
-
-Möchten Sie neue Fragen hinzufügen oder Features entwickeln?
-
-1. Fork das Repository
-2. Erstellen Sie einen Feature-Branch
-3. Fügen Sie Ihre Änderungen hinzu
-4. Erstellen Sie einen Pull Request
-
 ## 📝 Lizenz
 
-Dieses Projekt steht unter der MIT-Lizenz.
-
-## 👨‍💻 Entwickelt für das Friedrich-Gymnasium Freiburg
-
-Speziell entwickelt als interaktives Lernwerkzeug mit schulspezifischen Inhalten und umfassendem Allgemeinwissen für Schüler und Lehrer.
-
-- [ ] **Datenbank-Integration** (MongoDB/PostgreSQL)
-- [ ] **Benutzer-Authentifizierung** und Profile
-- [ ] **Bestenlisten** und Statistiken
-- [ ] **Multiplayer-Modus**
-- [ ] **Admin-Panel** zum Verwalten von Fragen
-- [ ] **Kategorie-Editor** für dynamische Inhalte
-- [ ] **Zeitlimits** für Fragen
-- [ ] **Schwierigkeitsgrade**
-- [ ] **Sound-Effekte** und Animationen
+Dieses Projekt steht unter der MIT-Lizenz und ist frei verfügbar für persönliche und kommerzielle Nutzung.
 
 ## 📊 Performance
 
@@ -338,7 +398,3 @@ npm run dev  # Startet mit nodemon für Auto-Reload
 - Server läuft auf Port 3000
 - Logs in der Konsole verfügbar
 - Browser DevTools für Client-Debugging
-
-## 📜 Lizenz
-
-Dieses Projekt ist frei verfügbar für persönliche und kommerzielle Nutzung.

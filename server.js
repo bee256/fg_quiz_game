@@ -20,6 +20,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 console.log('🔄 Lade Fragendatenbank...');
 const { questions, categories } = loadQuestions();
 
+// Gesamtanzahl der Fragen berechnen und ausgeben
+const totalQuestions = Object.values(questions).reduce((sum, categoryQuestions) => sum + categoryQuestions.length, 0);
+console.log(`📊 Gesamtanzahl Fragen: ${totalQuestions} in ${categories.length} Kategorien`);
+
 // Highscores-Datei Pfad
 const HIGHSCORES_FILE = path.join(__dirname, 'highscores.json');
 const LOG_DIR = path.join(__dirname, 'log');
