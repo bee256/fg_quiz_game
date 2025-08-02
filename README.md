@@ -7,6 +7,8 @@ hinzugefügt.
 
 Das Spiel ist derzeit (Sommer 2025) unter [quiz.fgpro.de](https://quiz.fgpro.de) gehostet.
 
+![Quiz Spiel Screenshot](screenshot.png)
+
 ## ✨ Features
 
 - 🏫 **Friedrich-Gymnasium Kategorie** - Spezielle Fragen zur Schule
