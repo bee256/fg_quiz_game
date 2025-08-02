@@ -2,10 +2,14 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
+const crypto = require('crypto');
 const { loadQuestions } = require('./questions-loader');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Admin-Konfiguration
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin123'; // In Produktion über Environment Variable setzen
 
 // Middleware
 app.use(cors());
@@ -538,6 +542,117 @@ function getCategoryDisplayName(categoryId) {
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
+
+// ==================== ADMIN INTERFACE ====================
+
+// Einfaches Token-System für Admin-Authentifizierung
+const adminTokens = new Set();
+
+function generateToken() {
+    return crypto.randomBytes(32).toString('hex');
+}
+
+function verifyAdminToken(req, res, next) {
+    const authHeader = req.headers.authorization;
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+        return res.status(401).json({ error: 'Token fehlt' });
+    }
+
+    const token = authHeader.substring(7);
+    if (!adminTokens.has(token)) {
+        return res.status(401).json({ error: 'Ungültiger Token' });
+    }
+
+    next();
+}
+
+// Admin Login
+app.post('/admin/login', (req, res) => {
+    const { password } = req.body;
+    
+    if (password === ADMIN_PASSWORD) {
+        const token = generateToken();
+        adminTokens.add(token);
+        
+        // Token läuft nach 24 Stunden ab
+        setTimeout(() => {
+            adminTokens.delete(token);
+        }, 24 * 60 * 60 * 1000);
+        
+        res.json({ success: true, token });
+        console.log('🔐 Admin-Login erfolgreich');
+    } else {
+        res.json({ success: false, message: 'Falsches Passwort' });
+        console.log('⚠️ Fehlgeschlagener Admin-Login-Versuch');
+    }
+});
+
+// Token-Verifikation
+app.get('/admin/verify', verifyAdminToken, (req, res) => {
+    res.json({ valid: true });
+});
+
+// Verfügbare Log-Monate abrufen
+app.get('/admin/months', verifyAdminToken, (req, res) => {
+    try {
+        const logFiles = fs.readdirSync(LOG_DIR)
+            .filter(file => file.startsWith('game-') && file.endsWith('.log'))
+            .map(file => file.replace('game-', '').replace('.log', ''))
+            .sort((a, b) => b.localeCompare(a)); // Neueste zuerst
+
+        res.json({ months: logFiles });
+    } catch (error) {
+        console.error('Fehler beim Laden der Log-Monate:', error);
+        res.status(500).json({ error: 'Fehler beim Laden der Monate' });
+    }
+});
+
+// Log-Daten für einen bestimmten Monat abrufen
+app.get('/admin/logs/:month', verifyAdminToken, (req, res) => {
+    const { month } = req.params;
+    
+    // Validiere Monatsformat (YYYY-MM)
+    if (!/^\d{4}-\d{2}$/.test(month)) {
+        return res.status(400).json({ error: 'Ungültiges Monatsformat' });
+    }
+    
+    const logFile = path.join(LOG_DIR, `game-${month}.log`);
+    
+    try {
+        if (!fs.existsSync(logFile)) {
+            return res.json({ logs: [] });
+        }
+        
+        const logContent = fs.readFileSync(logFile, 'utf8');
+        const logLines = logContent.trim().split('\n').filter(line => line.trim());
+        
+        const logs = logLines.map(line => {
+            const [timestamp, username, category, duration, score, total, device, ...userAgentParts] = line.split('\t');
+            return {
+                timestamp,
+                username,
+                category,
+                duration,
+                score: parseInt(score),
+                total: parseInt(total),
+                device,
+                userAgent: userAgentParts.join('\t')
+            };
+        });
+        
+        res.json({ logs });
+    } catch (error) {
+        console.error('Fehler beim Laden der Log-Datei:', error);
+        res.status(500).json({ error: 'Fehler beim Laden der Logs' });
+    }
+});
+
+// Admin Interface HTML servieren
+app.get('/admin', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'admin.html'));
+});
+
+// ==================== END ADMIN INTERFACE ====================
 
 // Server starten
 app.listen(PORT, '0.0.0.0', () => {

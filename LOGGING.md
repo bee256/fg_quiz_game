@@ -30,6 +30,21 @@ timestamp	username	category	duration	score	total	device	userAgent
 - Nur User-Agent für Gerätetyp-Erkennung verwendet
 - Benutzernamen werden nur bei bewusster Eingabe gespeichert
 
+## Admin Interface
+Für eine benutzerfreundliche Analyse der Log-Daten steht ein Web-Interface zur Verfügung:
+
+- **URL:** `/admin` (z.B. http://localhost:3000/admin)
+- **Authentifizierung:** Passwort-geschützt (Standard: `admin123`)
+- **Funktionen:** 
+  - Monatsweise Anzeige der Logs
+  - Statistische Auswertungen
+  - CSV-Export
+  - Responsive Design für mobile Geräte
+
+Detaillierte Informationen finden Sie in der [ADMIN.md](ADMIN.md).
+
+## Datenschutz
+
 ## Beispiel-Einträge
 ```
 2025-08-01T12:30:45.123Z	TestUser	allgemeinwissen	127s	10	12	Desktop	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
